@@ -23,6 +23,7 @@ public:
 	float m_unk5; //0x0030
 	int32_t m_unk6; //0x0034
 	float m_unk7; //0x0038
+private:
 	char pad_003C[16]; //0x003C
 }; //Size: 0x004C
 static_assert(sizeof(CDamageInstance) == 0x4C);
@@ -82,7 +83,11 @@ void dump_damage_data(generated_damage_settings* inst)
 	auto damage_instance_span = std::span(inst->m_damage_instances); //memset(generated_damage_settings, 0, 0xBE0ui64);
 
 	// ignoring the return because compiler asks us not to
+#ifdef _DEBUG
+	(void)glz::write_file_json < glz::opts{ .prettify = true } > (damage_instance_span, "generated_damage_settings.json", std::string{});
+#else
 	(void)glz::write_file_json < glz::opts{ .prettify = true } > (damage_instance_span, "./data/game/generated_damage_settings.json", std::string{});
+#endif
 
 	// no clue why this doesn't work, can be figured out later
 	// https://github.com/stephenberry/glaze/blob/main/docs/csv.md
@@ -109,6 +114,13 @@ int main()
 		tmp->m_penetration_4 = dist(rng);
 		tmp->m_demolition = dist(rng);
 		tmp->m_pushback = dist(rng);
+		tmp->m_unk1 = dist(rng);
+		tmp->m_unk2 = dist(rng);
+		tmp->m_unk3 = dist(rng);
+		tmp->m_unk4 = dist(rng);
+		tmp->m_unk5 = dist(rng);
+		tmp->m_unk6 = dist(rng);
+		tmp->m_unk7 = dist(rng);
 	}
 
 	dump_damage_data(inst);

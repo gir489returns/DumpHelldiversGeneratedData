@@ -79,10 +79,10 @@ static_assert(sizeof(generated_damage_settings) == 0xBE0);
 
 void dump_damage_data(generated_damage_settings* inst)
 {
-	auto span_hack = std::span(inst->m_damage_instances, 380); //memset(generated_damage_settings, 0, 0xBE0ui64);
+	auto damage_instance_span = std::span(inst->m_damage_instances); //memset(generated_damage_settings, 0, 0xBE0ui64);
 
 	// ignoring the return because compiler asks us not to
-	(void)glz::write_file_json < glz::opts{ .prettify = true } > (span_hack, "./data/game/generated_damage_settings.json", std::string{});
+	(void)glz::write_file_json < glz::opts{ .prettify = true } > (damage_instance_span, "./data/game/generated_damage_settings.json", std::string{});
 
 	// no clue why this doesn't work, can be figured out later
 	// https://github.com/stephenberry/glaze/blob/main/docs/csv.md

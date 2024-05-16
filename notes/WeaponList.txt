@@ -7,7 +7,7 @@
 #26 // MP-98 Knight
 #34 // SMG-37 Defender
 #42 // P-113 Verdict
-#51 // AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer
+#51 // AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
 #41 // SMG-72 Pummeler
 #48 // AR-23P Liberator Penetrator
 #50 // AR-23C Liberator Concussive
@@ -20,9 +20,9 @@
 #84 // JAR-5 Dominator
 #88 // SG-8 Punisher
 #99 // SG-8S Slugger
-#101 // SG-225SP Breaker Spray&Pray (16)
+#101 // SG-225SP Breaker Spray&Pray
 #102 // SG-225 Breaker
-#104 // SG-225NS Breaker Nailspitter (11)
+#104 // SG-225NS Breaker Nailspitter
 #105 // SG-225IE Breaker Incendiary
 #121 // MG-206 HMG
 #122 // anti material rifle
@@ -50,6 +50,7 @@
 #226 // EAT-17 part 3
 #296 // LAS-7 Dagger
 #297 // LAS-5 Scythe
+#298 // AX/LAS-5 "Guard Dog" Rover
 #234 // EXO-45 rocket part 2
 #302 // LAS-98
 
@@ -74,6 +75,7 @@
 #214 // Eagle strafing run pods
 #223 // mortar turred explosion
 #229 // Eagle Clusterbomb pods
+#231 // Napalm SEAF impact
 #236 // Eagle 110MM rocket pods
 #239 // rocket sentry turret 2
 #243 // anti personnel mines
@@ -84,8 +86,10 @@
 #263 // Orbital 120MM HE barrage explosion
 #267 // Orbital precision strike explosion
 #268 // 500KG bomb explosion
+#273 // High-yield SEAF explosion
 #282 // Impact Fall damage
-#287 // Hellbomb
+#287 // Hellbomb / SEAF Mini-Nuke
 #305 // Orbital Laser
+#309 // Napalm SEAF burn
 #310 // G-123 Thermite (burn)
 #321 // Orbital Gas

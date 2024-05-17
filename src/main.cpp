@@ -5,24 +5,26 @@
 #include <cstdint>
 #include "PatternScanner.hpp"
 
+DWORD damage_struct_size = 0;
+
 class CDamageInstance
 {
 public:
 	int32_t m_id; //0x0000
-	int32_t m_base_damage; //0x0004
-	int32_t m_penetration_no_angle; //0x0008
-	int32_t m_penetration_angle; //0x000C
-	int32_t m_penetration_3; //0x0010
-	int32_t m_penetration_4; //0x0014
-	int32_t m_demolition; //0x0018
-	int32_t m_pushback; //0x001C
-	int32_t m_unk1; //0x0020
-	int32_t m_unk2; //0x0024
-	int32_t m_unk3; //0x0028
-	int32_t m_unk4; //0x002C
-	float m_unk5; //0x0030
-	int32_t m_unk6; //0x0034
-	float m_unk7; //0x0038
+	int32_t m_max_damage; //0x0004
+	int32_t m_min_damage; //0x0008
+	int32_t m_penetration_no_angle; //0x000C
+	int32_t m_penetration_angle; //0x0010
+	int32_t m_penetration_3; //0x0014
+	int32_t m_penetration_4; //0x0018
+	int32_t m_demolition; //0x001C
+	int32_t m_pushback; //0x0020
+	int32_t m_unk1; //0x0024
+	int32_t m_unk2; //0x0028
+	int32_t m_unk3; //0x002C
+	float m_unk4; //0x0030
+	int32_t m_unk5; //0x0034
+	float m_unk6; //0x0038
 private:
 	char pad_003C[16]; //0x003C
 }; //Size: 0x004C
@@ -40,7 +42,8 @@ struct glz::meta<CDamageInstance>
 	static constexpr auto value =
 		object(
 			&T::m_id,
-			&T::m_base_damage,
+			&T::m_max_damage,
+			&T::m_min_damage,
 			&T::m_penetration_no_angle,
 			&T::m_penetration_angle,
 			&T::m_penetration_3,
@@ -52,8 +55,7 @@ struct glz::meta<CDamageInstance>
 			&T::m_unk3,
 			&T::m_unk4,
 			&T::m_unk5,
-			&T::m_unk6,
-			&T::m_unk7);
+			&T::m_unk6);
 };
 
 class generated_damage_settings
@@ -83,7 +85,7 @@ public:
 
 void dump_damage_data(generated_damage_settings* inst)
 {
-	auto damage_instance_span = std::span(inst->m_damage_instances, -1); //memset(generated_damage_settings, 0, 0xBE0ui64);
+	auto damage_instance_span = std::span(inst->m_damage_instances, damage_struct_size); //memset(generated_damage_settings, 0, 0xBE0ui64);
 
 	// ignoring the return because compiler asks us not to
 #ifdef _DEBUG
@@ -110,7 +112,8 @@ int main()
 	for (auto tmp : inst->m_damage_instances)
 	{
 		tmp->m_id = i++;
-		tmp->m_base_damage = dist(rng);
+		tmp->m_max_damage = dist(rng);
+		tmp->m_min_damage = dist(rng);
 		tmp->m_penetration_no_angle = dist(rng);
 		tmp->m_penetration_angle = dist(rng);
 		tmp->m_penetration_3 = dist(rng);
@@ -123,7 +126,6 @@ int main()
 		tmp->m_unk4 = dist(rng);
 		tmp->m_unk5 = dist(rng);
 		tmp->m_unk6 = dist(rng);
-		tmp->m_unk7 = dist(rng);
 	}
 
 	dump_damage_data(inst);
@@ -140,6 +142,30 @@ BOOL WINAPI DllMain(
 	// Perform actions based on the reason for calling.
 	if (fdwReason == DLL_PROCESS_ATTACH)
 	{
+		auto generated_damage_settings_constructor = PatternScanner::Scan("E8 ? ? ? ? 48 8B 3D ? ? ? ? 48 8B 87").GetCall().To<std::uint8_t*>();
+		if (generated_damage_settings_constructor == nullptr)
+		{
+			MessageBox(NULL, "Failed to find generated_damage_settings_constructor. Defaulting to size 380.", "ERROR", MB_ICONERROR | MB_OK);
+			damage_struct_size = 380;
+		}
+		else
+		{
+			for (int i = 0; i < 0x100; i++)
+			{
+				if (*reinterpret_cast<std::uint16_t*>(generated_damage_settings_constructor + i) == 0xB841)
+				{
+					damage_struct_size = *reinterpret_cast<std::uint32_t*>(generated_damage_settings_constructor + i + 2);
+					damage_struct_size /= 8;
+					break;
+				}
+			}
+			if (damage_struct_size == NULL)
+			{
+				MessageBox(NULL, "Failed to find memset instruction size. Defaulting to size 380.", "ERROR", MB_ICONERROR | MB_OK);
+				damage_struct_size = 380;
+			}
+		}
+
 		auto generated_damage_settings_instance = PatternScanner::Scan("48 8D 15 ? ? ? ? 89 46").GetRef(0x3).To<generated_damage_settings*>();
 		if (generated_damage_settings_instance == nullptr)
 		{

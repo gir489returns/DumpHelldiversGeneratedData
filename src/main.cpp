@@ -8,24 +8,24 @@
 class CDamageInstance
 {
 public:
-	int32_t m_id; //0x0000
-	int32_t m_base_damage; //0x0004
-	int32_t m_penetration_no_angle; //0x0008
-	int32_t m_penetration_angle; //0x000C
-	int32_t m_penetration_3; //0x0010
-	int32_t m_penetration_4; //0x0014
-	int32_t m_demolition; //0x0018
-	int32_t m_pushback; //0x001C
-	int32_t m_unk1; //0x0020
-	int32_t m_unk2; //0x0024
-	int32_t m_unk3; //0x0028
-	int32_t m_unk4; //0x002C
-	float m_unk5; //0x0030
-	int32_t m_unk6; //0x0034
-	float m_unk7; //0x0038
+	int32_t m_id;					// 0x0000
+	int32_t m_base_damage;			// 0x0004
+	int32_t m_penetration_no_angle; // 0x0008
+	int32_t m_penetration_angle;	// 0x000C
+	int32_t m_penetration_3;		// 0x0010
+	int32_t m_penetration_4;		// 0x0014
+	int32_t m_demolition;			// 0x0018
+	int32_t m_pushback;				// 0x001C
+	int32_t m_unk1;					// 0x0020
+	int32_t m_unk2;					// 0x0024
+	int32_t m_unk3;					// 0x0028
+	int32_t m_unk4;					// 0x002C
+	float m_unk5;					// 0x0030
+	int32_t m_unk6;					// 0x0034
+	float m_unk7;					// 0x0038
 private:
-	char pad_003C[16]; //0x003C
-}; //Size: 0x004C
+	char pad_003C[16]; // 0x003C
+}; // Size: 0x004C
 static_assert(sizeof(CDamageInstance) == 0x4C);
 
 /**
@@ -61,32 +61,32 @@ class generated_damage_settings
 public:
 	generated_damage_settings()
 	{
-		for (auto& item : m_damage_instances)
+		for (auto &item : m_damage_instances)
 		{
 			item = new CDamageInstance;
 		}
 	}
 	~generated_damage_settings()
 	{
-		for (auto& item : m_damage_instances)
+		for (auto &item : m_damage_instances)
 		{
 			delete item;
 		}
 	}
 
-	CDamageInstance* m_damage_instances[380]; // 0x0000
+	CDamageInstance *m_damage_instances[380]; // 0x0000
 }; // Size: 0x0BE0
 static_assert(sizeof(generated_damage_settings) == 0xBE0);
 
-void dump_damage_data(generated_damage_settings* inst)
+void dump_damage_data(CDamageInstance **inst, std::size_t count)
 {
-	auto damage_instance_span = std::span(inst->m_damage_instances); //memset(generated_damage_settings, 0, 0xBE0ui64);
+	auto damage_instance_span = std::span(inst, count); // memset(generated_damage_settings, 0, 0xBE0ui64);
 
 	// ignoring the return because compiler asks us not to
 #ifdef _DEBUG
-	(void)glz::write_file_json < glz::opts{ .prettify = true } > (damage_instance_span, "generated_damage_settings.json", std::string{});
+	(void)glz::write_file_json<glz::opts{.prettify = true}>(damage_instance_span, "generated_damage_settings.json", std::string{});
 #else
-	(void)glz::write_file_json < glz::opts{ .prettify = true } > (damage_instance_span, "./data/game/generated_damage_settings.json", std::string{});
+	(void)glz::write_file_json<glz::opts{.prettify = true}>(damage_instance_span, "./data/game/generated_damage_settings.json", std::string{});
 #endif
 
 	// no clue why this doesn't work, can be figured out later
@@ -123,7 +123,7 @@ int main()
 		tmp->m_unk7 = dist(rng);
 	}
 
-	dump_damage_data(inst);
+	dump_damage_data(reinterpret_cast<CDamageInstance **>(inst), 380);
 
 	return 0;
 }
@@ -131,13 +131,13 @@ int main()
 
 BOOL WINAPI DllMain(
 	HINSTANCE hinstDLL, // handle to DLL module
-	DWORD fdwReason,    // reason for calling function
+	DWORD fdwReason,	// reason for calling function
 	LPVOID lpvReserved) // reserved
 {
 	// Perform actions based on the reason for calling.
 	if (fdwReason == DLL_PROCESS_ATTACH)
 	{
-		auto generated_damage_settings_instance = PatternScanner::Scan("48 8D 15 ? ? ? ? 89 46").GetRef(0x3).To<generated_damage_settings*>();
+		auto generated_damage_settings_instance = PatternScanner::Scan("48 8D 15 ? ? ? ? 89 46").GetRef(0x3).To<generated_damage_settings *>();
 		if (generated_damage_settings_instance == nullptr)
 		{
 			MessageBox(NULL, "generated_damage_settings instance signature failed.", "ERROR", MB_ICONERROR | MB_OK);

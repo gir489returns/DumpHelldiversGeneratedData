@@ -59,6 +59,7 @@ struct glz::meta<CDamageInstance>
 class generated_damage_settings
 {
 public:
+#ifdef _DEBUG
 	generated_damage_settings()
 	{
 		for (auto& item : m_damage_instances)
@@ -75,12 +76,14 @@ public:
 	}
 
 	CDamageInstance* m_damage_instances[380]; // 0x0000
+#else
+	CDamageInstance* m_damage_instances[]; // 0x0000
+#endif
 }; // Size: 0x0BE0
-static_assert(sizeof(generated_damage_settings) == 0xBE0);
 
 void dump_damage_data(generated_damage_settings* inst)
 {
-	auto damage_instance_span = std::span(inst->m_damage_instances); //memset(generated_damage_settings, 0, 0xBE0ui64);
+	auto damage_instance_span = std::span(inst->m_damage_instances, -1); //memset(generated_damage_settings, 0, 0xBE0ui64);
 
 	// ignoring the return because compiler asks us not to
 #ifdef _DEBUG

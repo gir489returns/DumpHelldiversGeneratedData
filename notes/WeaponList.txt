@@ -11,7 +11,8 @@
 #41 // SMG-72 Pummeler
 #48 // AR-23P Liberator Penetrator
 #50 // AR-23C Liberator Concussive
-#27 // P-2 Peacemaker / P-19 Redeemer
+#25 // P-19 Redeemer
+#27 // P-2 Peacemaker
 #44 // P-4 Senator
 #65 // MG-43 / EXO-45 Gatling / Gatling Turret / BR-14 Adjudicator / AR-L20 Jus
 #73 // R-63 Diligence
@@ -50,7 +51,6 @@
 #226 // EAT-17 part 3
 #296 // LAS-7 Dagger
 #297 // LAS-5 Scythe
-#298 // AX/LAS-5 "Guard Dog" Rover
 #234 // EXO-45 rocket part 2
 #302 // LAS-98
 
@@ -59,36 +59,36 @@
 #112 // Orbital airburst impact
 #126 // tesla tower
 #132 // Eagle strafing run impact
-#138 // Eagle airstrike impact
+#142 // Eagle airstrike impact
 #140 // rocket sentry turret 1
-#148 // Eagle 110MM rocket pods impact
-#150 // 500KG bomb impact
-#155 // Orbital 120MM HE barrage impact
-#157 // Orbital railcannon impact
+#152 // Eagle 110MM rocket pods impact
+#154 // 500KG bomb impact
+#159 // Orbital 120MM HE barrage impact
+#161 // Orbital railcannon impact
 #158 // Orbital gas canister impact
 #160 // Orbital precision strike impact
 #201 // G-6 Frag part 1 // shares ID with airburst rocket launcher (cluster)
-#203 // G-10 Incendiary
-#203 // incendiary mines (explosion) // burning is ground fire 309 like flame tornadoes or flamethrower ground fire
+#203 // G-10 Incendiary/incendiary mines (explosion) // burning is ground fire 309 like flame tornadoes or flamethrower ground fire
 #204 // G-123 Thermite (explosion)
 #213 // G-12 High Explosive /  G-16 Impact
 #214 // Eagle strafing run pods
-#223 // mortar turred explosion
 #229 // Eagle Clusterbomb pods
+#223 // mortar turred explosion
 #231 // Napalm SEAF impact
-#236 // Eagle 110MM rocket pods
 #239 // rocket sentry turret 2
+#241 // Eagle 110MM rocket pods
 #243 // anti personnel mines
 #245 // anti tank mines
-#249 // Eagle Airstrike
+#254 // Eagle Airstrike
 #258 // Hellpod impact damage
-#261 // Orbital railcannon explosion
-#263 // Orbital 120MM HE barrage explosion
+#266 // Orbital railcannon explosion
+#268 // Orbital 120MM HE barrage explosion
 #267 // Orbital precision strike explosion
 #268 // 500KG bomb explosion
 #273 // High-yield SEAF explosion
 #282 // Impact Fall damage
 #287 // Hellbomb / SEAF Mini-Nuke
+#298 // AX/LAS-5 "Guard Dog" Rover
 #305 // Orbital Laser
 #309 // Napalm SEAF burn
 #310 // G-123 Thermite (burn)

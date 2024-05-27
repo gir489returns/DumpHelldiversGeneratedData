@@ -25,6 +25,9 @@
 #102 // SG-225 Breaker
 #104 // SG-225NS Breaker Nailspitter
 #105 // SG-225IE Breaker Incendiary
+#113 // ARC-12 Blitzer
+#115 // ARC-3 Arc Thrower
+#120 // HMG Emplacement
 #121 // MG-206 HMG
 #122 // anti material rifle
 #124 // CB-9 explosive crossbow 1
@@ -36,11 +39,12 @@
 #135 // EAT-17 part 1
 #136 // recoil-less rifle part 1 shell
 #147 // EXO-45 rocket part 1
+#149 // FAF-14 Spear 1 shell
 #184 // PLAS-1 Scorcher explosion
 #186 // SG-8P Punisher Plasma explosion
 #202 // RL-77 airburst (ground???)
 #205 // R-36 Eruptor 3
-#216 // autocannon part 2 // explosion
+#216 // autocannon part 2 explosion
 #217 // emancipator exo gun part 2
 #219 // pelican weapon part 2
 #220 // GL-21 / GP-31 grenade pistol explosion
@@ -49,15 +53,18 @@
 #224 // RL-77 airburst (rocket)
 #225 // recoil-less rifle part 2 explosion
 #226 // EAT-17 part 3
+#236 // FAF-14 Spear 2 explosion
 #296 // LAS-7 Dagger
 #297 // LAS-5 Scythe
 #234 // EXO-45 rocket part 2
 #302 // LAS-98
 
 // these weapons stay default
+#65 // Machine Gun Sentry
 #111 // G-6 Frag part 2
 #112 // Orbital airburst impact
 #126 // tesla tower
+#130 // Autocannon Sentry impact
 #132 // Eagle strafing run impact
 #142 // Eagle airstrike impact
 #140 // rocket sentry turret 1
@@ -72,6 +79,7 @@
 #204 // G-123 Thermite (explosion)
 #213 // G-12 High Explosive /  G-16 Impact
 #214 // Eagle strafing run pods
+#219 // Autocannon sentry explosion
 #229 // Eagle Clusterbomb pods
 #223 // mortar turred explosion
 #231 // Napalm SEAF impact

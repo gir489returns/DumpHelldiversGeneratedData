@@ -71,9 +71,9 @@
 #152 // Eagle 110MM rocket pods impact
 #154 // 500KG bomb impact
 #159 // Orbital 120MM HE barrage impact
+#160 // Orbital 380MM HE barrage/precison strike/walking impact
 #161 // Orbital railcannon impact
 #158 // Orbital gas canister impact
-#160 // Orbital precision strike impact
 #201 // G-6 Frag part 1 // shares ID with airburst rocket launcher (cluster)
 #203 // G-10 Incendiary/incendiary mines (explosion) // burning is ground fire 309 like flame tornadoes or flamethrower ground fire
 #204 // G-123 Thermite (explosion)
@@ -90,10 +90,9 @@
 #254 // Eagle Airstrike
 #258 // Hellpod impact damage
 #266 // Orbital railcannon explosion
-#268 // Orbital 120MM HE barrage explosion
-#267 // Orbital precision strike explosion
-#268 // 500KG bomb explosion
-#273 // High-yield SEAF explosion
+#267 // Orbital 380MM HE barrage/walking explosion
+#273 // High-yield SEAF explosion/500KG Bomb Explosion
+#268 // Orbital 120MM HE barrage
 #282 // Impact Fall damage
 #287 // Hellbomb / SEAF Mini-Nuke
 #298 // AX/LAS-5 "Guard Dog" Rover

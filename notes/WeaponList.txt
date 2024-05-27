@@ -4,16 +4,16 @@
 #19 // LAS-16 Sickle
 #20 // SG-8P Punisher Plasma (1) / PLAS-1 Scorcher
 #22 // RS-422 railgun
+#25 // P-19 Redeemer
 #26 // MP-98 Knight
+#27 // P-2 Peacemaker
 #34 // SMG-37 Defender
-#42 // P-113 Verdict
-#51 // AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
 #41 // SMG-72 Pummeler
+#42 // P-113 Verdict
+#44 // P-4 Senator
 #48 // AR-23P Liberator Penetrator
 #50 // AR-23C Liberator Concussive
-#25 // P-19 Redeemer
-#27 // P-2 Peacemaker
-#44 // P-4 Senator
+#51 // AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
 #65 // MG-43 / EXO-45 Gatling / Gatling Turret / BR-14 Adjudicator / AR-L20 Jus
 #73 // R-63 Diligence
 #74 // R-63CS Diligence Counter Sniper
@@ -48,15 +48,15 @@
 #217 // emancipator exo gun part 2
 #219 // pelican weapon part 2
 #220 // GL-21 / GP-31 grenade pistol explosion
-#227 // LAS-99 quasar part 1
-#228 // LAS-99 quasar part 2
 #224 // RL-77 airburst (rocket)
 #225 // recoil-less rifle part 2 explosion
 #226 // EAT-17 part 3
+#227 // LAS-99 quasar part 1
+#228 // LAS-99 quasar part 2
+#234 // EXO-45 rocket part 2
 #236 // FAF-14 Spear 2 explosion
 #296 // LAS-7 Dagger
 #297 // LAS-5 Scythe
-#234 // EXO-45 rocket part 2
 #302 // LAS-98
 
 // these weapons stay default
@@ -66,22 +66,22 @@
 #126 // tesla tower
 #130 // Autocannon Sentry impact
 #132 // Eagle strafing run impact
-#142 // Eagle airstrike impact
 #140 // rocket sentry turret 1
+#142 // Eagle airstrike impact
 #152 // Eagle 110MM rocket pods impact
 #154 // 500KG bomb impact
+#158 // Orbital gas canister impact
 #159 // Orbital 120MM HE barrage impact
 #160 // Orbital 380MM HE barrage/precison strike/walking impact
 #161 // Orbital railcannon impact
-#158 // Orbital gas canister impact
 #201 // G-6 Frag part 1 // shares ID with airburst rocket launcher (cluster)
 #203 // G-10 Incendiary/incendiary mines (explosion) // burning is ground fire 309 like flame tornadoes or flamethrower ground fire
 #204 // G-123 Thermite (explosion)
 #213 // G-12 High Explosive /  G-16 Impact
 #214 // Eagle strafing run pods
 #219 // Autocannon sentry explosion
-#229 // Eagle Clusterbomb pods
 #223 // mortar turred explosion
+#229 // Eagle Clusterbomb pods
 #231 // Napalm SEAF impact
 #239 // rocket sentry turret 2
 #241 // Eagle 110MM rocket pods
@@ -91,8 +91,8 @@
 #258 // Hellpod impact damage
 #266 // Orbital railcannon explosion
 #267 // Orbital 380MM HE barrage/walking explosion
-#273 // High-yield SEAF explosion/500KG Bomb Explosion
 #268 // Orbital 120MM HE barrage
+#273 // High-yield SEAF explosion/500KG Bomb Explosion
 #282 // Impact Fall damage
 #287 // Hellbomb / SEAF Mini-Nuke
 #298 // AX/LAS-5 "Guard Dog" Rover

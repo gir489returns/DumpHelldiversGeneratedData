@@ -18,8 +18,8 @@
    },
    {
       "m_id": 1,
-      "m_max_damage": 32,
-      "m_min_damage": 32,
+      "m_max_damage": 50,
+      "m_min_damage": 50,
       "m_penetration_no_angle": 4,
       "m_penetration_angle": 4,
       "m_penetration_3": 4,
@@ -27,33 +27,33 @@
       "m_demolition": 0,
       "m_pushback": 20,
       "m_unk1": 10,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
+      "m_unk2": 3,
+      "m_unk3": 10,
+      "m_stun_factor": 50,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
       "m_id": 2,
-      "m_max_damage": 50,
-      "m_min_damage": 50,
+      "m_max_damage": 60,
+      "m_min_damage": 60,
       "m_penetration_no_angle": 5,
       "m_penetration_angle": 5,
       "m_penetration_3": 5,
       "m_penetration_4": 0,
-      "m_demolition": 0,
+      "m_demolition": 20,
       "m_pushback": 20,
       "m_unk1": 10,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
+      "m_unk2": 3,
+      "m_unk3": 10,
+      "m_stun_factor": 100,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
       "m_id": 3,
-      "m_max_damage": 32,
-      "m_min_damage": 32,
+      "m_max_damage": 50,
+      "m_min_damage": 50,
       "m_penetration_no_angle": 4,
       "m_penetration_angle": 4,
       "m_penetration_3": 4,
@@ -61,9 +61,9 @@
       "m_demolition": 10,
       "m_pushback": 20,
       "m_unk1": 10,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
+      "m_unk2": 3,
+      "m_unk3": 10,
+      "m_stun_factor": 50,
       "m_unk5": 0,
       "m_unk6": 0
    },
@@ -86,8 +86,8 @@
    },
    {
       "m_id": 5,
-      "m_max_damage": 40,
-      "m_min_damage": 20,
+      "m_max_damage": 25,
+      "m_min_damage": 10,
       "m_penetration_no_angle": 2,
       "m_penetration_angle": 2,
       "m_penetration_3": 2,
@@ -215,7 +215,7 @@
       "m_pushback": 10,
       "m_unk1": 5,
       "m_unk2": 2,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 10,
       "m_unk5": 0,
       "m_unk6": 0
@@ -266,7 +266,7 @@
       "m_pushback": 10,
       "m_unk1": 10,
       "m_unk2": 2,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 10,
       "m_unk5": 0,
       "m_unk6": 0
@@ -283,7 +283,7 @@
       "m_pushback": 10,
       "m_unk1": 5,
       "m_unk2": 2,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 10,
       "m_unk5": 0,
       "m_unk6": 0
@@ -300,7 +300,7 @@
       "m_pushback": 5,
       "m_unk1": 50,
       "m_unk2": 2,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 10,
       "m_unk5": 0,
       "m_unk6": 0
@@ -317,7 +317,7 @@
       "m_pushback": 10,
       "m_unk1": 5,
       "m_unk2": 2,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 10,
       "m_unk5": 0,
       "m_unk6": 0
@@ -358,6 +358,23 @@
    },
    {
       "m_id": 21,
+      "m_max_damage": 100,
+      "m_min_damage": 50,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 3,
+      "m_penetration_3": 3,
+      "m_penetration_4": 0,
+      "m_demolition": 10,
+      "m_pushback": 20,
+      "m_unk1": 10,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 22,
       "m_max_damage": 250,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -374,7 +391,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 22,
+      "m_id": 23,
       "m_max_damage": 600,
       "m_min_damage": 60,
       "m_penetration_no_angle": 5,
@@ -391,7 +408,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 23,
+      "m_id": 24,
       "m_max_damage": 600,
       "m_min_damage": 120,
       "m_penetration_no_angle": 8,
@@ -402,13 +419,13 @@
       "m_pushback": 50,
       "m_unk1": 15,
       "m_unk2": 0,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 1,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 24,
+      "m_id": 25,
       "m_max_damage": 60,
       "m_min_damage": 18,
       "m_penetration_no_angle": 1,
@@ -425,25 +442,8 @@
       "m_unk6": 0
    },
    {
-      "m_id": 25,
-      "m_max_damage": 60,
-      "m_min_damage": 5,
-      "m_penetration_no_angle": 2,
-      "m_penetration_angle": 2,
-      "m_penetration_3": 2,
-      "m_penetration_4": 0,
-      "m_demolition": 10,
-      "m_pushback": 10,
-      "m_unk1": 4,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
       "m_id": 26,
-      "m_max_damage": 50,
+      "m_max_damage": 60,
       "m_min_damage": 5,
       "m_penetration_no_angle": 2,
       "m_penetration_angle": 2,
@@ -460,6 +460,23 @@
    },
    {
       "m_id": 27,
+      "m_max_damage": 50,
+      "m_min_damage": 5,
+      "m_penetration_no_angle": 2,
+      "m_penetration_angle": 2,
+      "m_penetration_3": 2,
+      "m_penetration_4": 0,
+      "m_demolition": 10,
+      "m_pushback": 10,
+      "m_unk1": 4,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 28,
       "m_max_damage": 75,
       "m_min_damage": 15,
       "m_penetration_no_angle": 2,
@@ -476,7 +493,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 28,
+      "m_id": 29,
       "m_max_damage": 64,
       "m_min_damage": 6,
       "m_penetration_no_angle": 2,
@@ -493,7 +510,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 29,
+      "m_id": 30,
       "m_max_damage": 38,
       "m_min_damage": 11,
       "m_penetration_no_angle": 2,
@@ -510,7 +527,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 30,
+      "m_id": 31,
       "m_max_damage": 83,
       "m_min_damage": 8,
       "m_penetration_no_angle": 1,
@@ -527,7 +544,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 31,
+      "m_id": 32,
       "m_max_damage": 38,
       "m_min_damage": 3,
       "m_penetration_no_angle": 3,
@@ -544,7 +561,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 32,
+      "m_id": 33,
       "m_max_damage": 48,
       "m_min_damage": 4,
       "m_penetration_no_angle": 1,
@@ -561,7 +578,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 33,
+      "m_id": 34,
       "m_max_damage": 70,
       "m_min_damage": 21,
       "m_penetration_no_angle": 1,
@@ -578,7 +595,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 34,
+      "m_id": 35,
       "m_max_damage": 70,
       "m_min_damage": 7,
       "m_penetration_no_angle": 2,
@@ -595,7 +612,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 35,
+      "m_id": 36,
       "m_max_damage": 80,
       "m_min_damage": 8,
       "m_penetration_no_angle": 1,
@@ -612,7 +629,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 36,
+      "m_id": 37,
       "m_max_damage": 73,
       "m_min_damage": 7,
       "m_penetration_no_angle": 2,
@@ -629,7 +646,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 37,
+      "m_id": 38,
       "m_max_damage": 40,
       "m_min_damage": 12,
       "m_penetration_no_angle": 2,
@@ -646,7 +663,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 38,
+      "m_id": 39,
       "m_max_damage": 99,
       "m_min_damage": 9,
       "m_penetration_no_angle": 1,
@@ -663,7 +680,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 39,
+      "m_id": 40,
       "m_max_damage": 50,
       "m_min_damage": 5,
       "m_penetration_no_angle": 3,
@@ -680,7 +697,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 40,
+      "m_id": 41,
       "m_max_damage": 70,
       "m_min_damage": 7,
       "m_penetration_no_angle": 1,
@@ -697,7 +714,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 41,
+      "m_id": 42,
       "m_max_damage": 65,
       "m_min_damage": 7,
       "m_penetration_no_angle": 2,
@@ -708,13 +725,13 @@
       "m_pushback": 15,
       "m_unk1": 5,
       "m_unk2": 0,
-      "m_unk3": 34,
-      "m_stun_factor": 1.5,
+      "m_unk3": 36,
+      "m_stun_factor": 1,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 42,
+      "m_id": 43,
       "m_max_damage": 125,
       "m_min_damage": 12,
       "m_penetration_no_angle": 2,
@@ -731,7 +748,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 43,
+      "m_id": 44,
       "m_max_damage": 100,
       "m_min_damage": 10,
       "m_penetration_no_angle": 3,
@@ -748,7 +765,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 44,
+      "m_id": 45,
       "m_max_damage": 175,
       "m_min_damage": 35,
       "m_penetration_no_angle": 3,
@@ -765,7 +782,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 45,
+      "m_id": 46,
       "m_max_damage": 150,
       "m_min_damage": 30,
       "m_penetration_no_angle": 1,
@@ -782,7 +799,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 46,
+      "m_id": 47,
       "m_max_damage": 180,
       "m_min_damage": 18,
       "m_penetration_no_angle": 3,
@@ -799,7 +816,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 47,
+      "m_id": 48,
       "m_max_damage": 200,
       "m_min_damage": 20,
       "m_penetration_no_angle": 1,
@@ -816,7 +833,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 48,
+      "m_id": 49,
       "m_max_damage": 45,
       "m_min_damage": 15,
       "m_penetration_no_angle": 3,
@@ -833,7 +850,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 49,
+      "m_id": 50,
       "m_max_damage": 60,
       "m_min_damage": 6,
       "m_penetration_no_angle": 3,
@@ -850,9 +867,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 50,
+      "m_id": 51,
       "m_max_damage": 65,
-      "m_min_damage": 15,
+      "m_min_damage": 23,
       "m_penetration_no_angle": 2,
       "m_penetration_angle": 2,
       "m_penetration_3": 2,
@@ -867,9 +884,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 51,
+      "m_id": 52,
       "m_max_damage": 60,
-      "m_min_damage": 6,
+      "m_min_damage": 14,
       "m_penetration_no_angle": 2,
       "m_penetration_angle": 2,
       "m_penetration_3": 2,
@@ -884,7 +901,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 52,
+      "m_id": 53,
       "m_max_damage": 85,
       "m_min_damage": 8,
       "m_penetration_no_angle": 1,
@@ -901,7 +918,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 53,
+      "m_id": 54,
       "m_max_damage": 65,
       "m_min_damage": 6,
       "m_penetration_no_angle": 2,
@@ -918,7 +935,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 54,
+      "m_id": 55,
       "m_max_damage": 99,
       "m_min_damage": 9,
       "m_penetration_no_angle": 2,
@@ -935,7 +952,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 55,
+      "m_id": 56,
       "m_max_damage": 105,
       "m_min_damage": 10,
       "m_penetration_no_angle": 1,
@@ -952,7 +969,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 56,
+      "m_id": 57,
       "m_max_damage": 55,
       "m_min_damage": 5,
       "m_penetration_no_angle": 2,
@@ -969,7 +986,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 57,
+      "m_id": 58,
       "m_max_damage": 40,
       "m_min_damage": 4,
       "m_penetration_no_angle": 2,
@@ -986,7 +1003,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 58,
+      "m_id": 59,
       "m_max_damage": 35,
       "m_min_damage": 4,
       "m_penetration_no_angle": 3,
@@ -1003,7 +1020,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 59,
+      "m_id": 60,
       "m_max_damage": 80,
       "m_min_damage": 8,
       "m_penetration_no_angle": 2,
@@ -1020,7 +1037,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 60,
+      "m_id": 61,
       "m_max_damage": 70,
       "m_min_damage": 7,
       "m_penetration_no_angle": 3,
@@ -1037,7 +1054,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 61,
+      "m_id": 62,
       "m_max_damage": 80,
       "m_min_damage": 8,
       "m_penetration_no_angle": 3,
@@ -1054,7 +1071,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 62,
+      "m_id": 63,
       "m_max_damage": 96,
       "m_min_damage": 9,
       "m_penetration_no_angle": 3,
@@ -1071,7 +1088,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 63,
+      "m_id": 64,
       "m_max_damage": 110,
       "m_min_damage": 33,
       "m_penetration_no_angle": 1,
@@ -1088,7 +1105,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 64,
+      "m_id": 65,
       "m_max_damage": 80,
       "m_min_damage": 8,
       "m_penetration_no_angle": 1,
@@ -1105,9 +1122,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 65,
-      "m_max_damage": 80,
-      "m_min_damage": 8,
+      "m_id": 66,
+      "m_max_damage": 90,
+      "m_min_damage": 23,
       "m_penetration_no_angle": 3,
       "m_penetration_angle": 3,
       "m_penetration_3": 3,
@@ -1122,7 +1139,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 66,
+      "m_id": 67,
       "m_max_damage": 90,
       "m_min_damage": 9,
       "m_penetration_no_angle": 2,
@@ -1139,7 +1156,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 67,
+      "m_id": 68,
       "m_max_damage": 150,
       "m_min_damage": 15,
       "m_penetration_no_angle": 2,
@@ -1156,7 +1173,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 68,
+      "m_id": 69,
       "m_max_damage": 160,
       "m_min_damage": 16,
       "m_penetration_no_angle": 3,
@@ -1173,7 +1190,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 69,
+      "m_id": 70,
       "m_max_damage": 65,
       "m_min_damage": 6,
       "m_penetration_no_angle": 2,
@@ -1190,7 +1207,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 70,
+      "m_id": 71,
       "m_max_damage": 80,
       "m_min_damage": 8,
       "m_penetration_no_angle": 3,
@@ -1207,15 +1224,32 @@
       "m_unk6": 0
    },
    {
-      "m_id": 71,
-      "m_max_damage": 75,
-      "m_min_damage": 8,
+      "m_id": 72,
+      "m_max_damage": 80,
+      "m_min_damage": 16,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 3,
+      "m_penetration_3": 3,
+      "m_penetration_4": 1,
+      "m_demolition": 10,
+      "m_pushback": 15,
+      "m_unk1": 12,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 73,
+      "m_max_damage": 95,
+      "m_min_damage": 22,
       "m_penetration_no_angle": 2,
       "m_penetration_angle": 2,
       "m_penetration_3": 2,
       "m_penetration_4": 0,
       "m_demolition": 10,
-      "m_pushback": 10,
+      "m_pushback": 15,
       "m_unk1": 10,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -1224,7 +1258,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 72,
+      "m_id": 74,
       "m_max_damage": 100,
       "m_min_damage": 10,
       "m_penetration_no_angle": 3,
@@ -1241,9 +1275,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 73,
+      "m_id": 75,
       "m_max_damage": 125,
-      "m_min_damage": 13,
+      "m_min_damage": 32,
       "m_penetration_no_angle": 2,
       "m_penetration_angle": 2,
       "m_penetration_3": 2,
@@ -1258,7 +1292,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 74,
+      "m_id": 76,
       "m_max_damage": 140,
       "m_min_damage": 14,
       "m_penetration_no_angle": 3,
@@ -1275,7 +1309,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 75,
+      "m_id": 77,
       "m_max_damage": 170,
       "m_min_damage": 17,
       "m_penetration_no_angle": 3,
@@ -1292,7 +1326,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 76,
+      "m_id": 78,
       "m_max_damage": 222,
       "m_min_damage": 22,
       "m_penetration_no_angle": 3,
@@ -1309,7 +1343,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 77,
+      "m_id": 79,
       "m_max_damage": 112,
       "m_min_damage": 11,
       "m_penetration_no_angle": 2,
@@ -1326,7 +1360,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 78,
+      "m_id": 80,
       "m_max_damage": 112,
       "m_min_damage": 11,
       "m_penetration_no_angle": 3,
@@ -1343,7 +1377,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 79,
+      "m_id": 81,
       "m_max_damage": 120,
       "m_min_damage": 12,
       "m_penetration_no_angle": 2,
@@ -1354,13 +1388,13 @@
       "m_pushback": 20,
       "m_unk1": 10,
       "m_unk2": 0,
-      "m_unk3": 35,
+      "m_unk3": 37,
       "m_stun_factor": 5,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 80,
+      "m_id": 82,
       "m_max_damage": 230,
       "m_min_damage": 115,
       "m_penetration_no_angle": 3,
@@ -1377,7 +1411,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 81,
+      "m_id": 83,
       "m_max_damage": 160,
       "m_min_damage": 48,
       "m_penetration_no_angle": 2,
@@ -1394,7 +1428,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 82,
+      "m_id": 84,
       "m_max_damage": 160,
       "m_min_damage": 48,
       "m_penetration_no_angle": 3,
@@ -1411,7 +1445,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 83,
+      "m_id": 85,
       "m_max_damage": 180,
       "m_min_damage": 54,
       "m_penetration_no_angle": 3,
@@ -1428,7 +1462,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 84,
+      "m_id": 86,
       "m_max_damage": 275,
       "m_min_damage": 90,
       "m_penetration_no_angle": 3,
@@ -1445,7 +1479,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 85,
+      "m_id": 87,
       "m_max_damage": 70,
       "m_min_damage": 14,
       "m_penetration_no_angle": 4,
@@ -1462,7 +1496,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 86,
+      "m_id": 88,
       "m_max_damage": 160,
       "m_min_damage": 32,
       "m_penetration_no_angle": 3,
@@ -1479,7 +1513,24 @@
       "m_unk6": 0
    },
    {
-      "m_id": 87,
+      "m_id": 89,
+      "m_max_damage": 50,
+      "m_min_damage": 12,
+      "m_penetration_no_angle": 2,
+      "m_penetration_angle": 2,
+      "m_penetration_3": 2,
+      "m_penetration_4": 0,
+      "m_demolition": 10,
+      "m_pushback": 15,
+      "m_unk1": 10,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 90,
       "m_max_damage": 40,
       "m_min_damage": 8,
       "m_penetration_no_angle": 1,
@@ -1496,7 +1547,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 88,
+      "m_id": 91,
       "m_max_damage": 45,
       "m_min_damage": 12,
       "m_penetration_no_angle": 2,
@@ -1513,7 +1564,24 @@
       "m_unk6": 0
    },
    {
-      "m_id": 89,
+      "m_id": 92,
+      "m_max_damage": 50,
+      "m_min_damage": 25,
+      "m_penetration_no_angle": 2,
+      "m_penetration_angle": 2,
+      "m_penetration_3": 2,
+      "m_penetration_4": 0,
+      "m_demolition": 5,
+      "m_pushback": 30,
+      "m_unk1": 20,
+      "m_unk2": 1,
+      "m_unk3": 6,
+      "m_stun_factor": 100,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 93,
       "m_max_damage": 70,
       "m_min_damage": 14,
       "m_penetration_no_angle": 2,
@@ -1530,7 +1598,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 90,
+      "m_id": 94,
       "m_max_damage": 20,
       "m_min_damage": 4,
       "m_penetration_no_angle": 3,
@@ -1547,7 +1615,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 91,
+      "m_id": 95,
       "m_max_damage": 30,
       "m_min_damage": 6,
       "m_penetration_no_angle": 2,
@@ -1564,7 +1632,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 92,
+      "m_id": 96,
       "m_max_damage": 320,
       "m_min_damage": 160,
       "m_penetration_no_angle": 1,
@@ -1581,7 +1649,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 93,
+      "m_id": 97,
       "m_max_damage": 65,
       "m_min_damage": 13,
       "m_penetration_no_angle": 2,
@@ -1598,7 +1666,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 94,
+      "m_id": 98,
       "m_max_damage": 230,
       "m_min_damage": 46,
       "m_penetration_no_angle": 2,
@@ -1615,7 +1683,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 95,
+      "m_id": 99,
       "m_max_damage": 180,
       "m_min_damage": 36,
       "m_penetration_no_angle": 2,
@@ -1632,7 +1700,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 96,
+      "m_id": 100,
       "m_max_damage": 180,
       "m_min_damage": 36,
       "m_penetration_no_angle": 2,
@@ -1649,7 +1717,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 97,
+      "m_id": 101,
       "m_max_damage": 180,
       "m_min_damage": 36,
       "m_penetration_no_angle": 2,
@@ -1666,7 +1734,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 98,
+      "m_id": 102,
       "m_max_damage": 200,
       "m_min_damage": 40,
       "m_penetration_no_angle": 2,
@@ -1683,7 +1751,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 99,
+      "m_id": 103,
       "m_max_damage": 250,
       "m_min_damage": 75,
       "m_penetration_no_angle": 3,
@@ -1700,7 +1768,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 100,
+      "m_id": 104,
       "m_max_damage": 90,
       "m_min_damage": 18,
       "m_penetration_no_angle": 2,
@@ -1717,7 +1785,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 101,
+      "m_id": 105,
       "m_max_damage": 12,
       "m_min_damage": 4,
       "m_penetration_no_angle": 2,
@@ -1734,7 +1802,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 102,
+      "m_id": 106,
       "m_max_damage": 30,
       "m_min_damage": 6,
       "m_penetration_no_angle": 2,
@@ -1751,7 +1819,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 103,
+      "m_id": 107,
       "m_max_damage": 45,
       "m_min_damage": 9,
       "m_penetration_no_angle": 2,
@@ -1768,7 +1836,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 104,
+      "m_id": 108,
       "m_max_damage": 20,
       "m_min_damage": 4,
       "m_penetration_no_angle": 3,
@@ -1785,7 +1853,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 105,
+      "m_id": 109,
       "m_max_damage": 20,
       "m_min_damage": 10,
       "m_penetration_no_angle": 2,
@@ -1802,7 +1870,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 106,
+      "m_id": 110,
       "m_max_damage": 38,
       "m_min_damage": 7,
       "m_penetration_no_angle": 3,
@@ -1819,7 +1887,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 107,
+      "m_id": 111,
       "m_max_damage": 90,
       "m_min_damage": 18,
       "m_penetration_no_angle": 2,
@@ -1836,7 +1904,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 108,
+      "m_id": 112,
       "m_max_damage": 200,
       "m_min_damage": 40,
       "m_penetration_no_angle": 2,
@@ -1853,7 +1921,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 109,
+      "m_id": 113,
       "m_max_damage": 30,
       "m_min_damage": 6,
       "m_penetration_no_angle": 2,
@@ -1870,7 +1938,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 110,
+      "m_id": 114,
       "m_max_damage": 190,
       "m_min_damage": 38,
       "m_penetration_no_angle": 2,
@@ -1887,7 +1955,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 111,
+      "m_id": 115,
       "m_max_damage": 80,
       "m_min_damage": 8,
       "m_penetration_no_angle": 2,
@@ -1904,7 +1972,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 112,
+      "m_id": 116,
       "m_max_damage": 300,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -1921,7 +1989,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 113,
+      "m_id": 117,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 0,
@@ -1938,7 +2006,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 114,
+      "m_id": 118,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 8,
@@ -1955,7 +2023,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 115,
+      "m_id": 119,
       "m_max_damage": 250,
       "m_min_damage": 50,
       "m_penetration_no_angle": 7,
@@ -1972,7 +2040,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 116,
+      "m_id": 120,
       "m_max_damage": 350,
       "m_min_damage": 70,
       "m_penetration_no_angle": 7,
@@ -1989,7 +2057,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 117,
+      "m_id": 121,
       "m_max_damage": 50,
       "m_min_damage": 35,
       "m_penetration_no_angle": 3,
@@ -2006,7 +2074,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 118,
+      "m_id": 122,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 2,
@@ -2023,7 +2091,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 119,
+      "m_id": 123,
       "m_max_damage": 55,
       "m_min_damage": 5,
       "m_penetration_no_angle": 3,
@@ -2040,7 +2108,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 120,
+      "m_id": 124,
       "m_max_damage": 200,
       "m_min_damage": 40,
       "m_penetration_no_angle": 4,
@@ -2057,15 +2125,15 @@
       "m_unk6": 0
    },
    {
-      "m_id": 121,
-      "m_max_damage": 100,
-      "m_min_damage": 35,
+      "m_id": 125,
+      "m_max_damage": 150,
+      "m_min_damage": 50,
       "m_penetration_no_angle": 4,
       "m_penetration_angle": 4,
       "m_penetration_3": 4,
       "m_penetration_4": 0,
       "m_demolition": 15,
-      "m_pushback": 15,
+      "m_pushback": 20,
       "m_unk1": 20,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -2074,7 +2142,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 122,
+      "m_id": 126,
       "m_max_damage": 450,
       "m_min_damage": 135,
       "m_penetration_no_angle": 4,
@@ -2091,7 +2159,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 123,
+      "m_id": 127,
       "m_max_damage": 450,
       "m_min_damage": 135,
       "m_penetration_no_angle": 4,
@@ -2108,7 +2176,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 124,
+      "m_id": 128,
       "m_max_damage": 270,
       "m_min_damage": 50,
       "m_penetration_no_angle": 3,
@@ -2125,14 +2193,14 @@
       "m_unk6": 0
    },
    {
-      "m_id": 125,
+      "m_id": 129,
       "m_max_damage": 150,
       "m_min_damage": 150,
-      "m_penetration_no_angle": 2,
-      "m_penetration_angle": 2,
-      "m_penetration_3": 2,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 3,
+      "m_penetration_3": 3,
       "m_penetration_4": 0,
-      "m_demolition": 15,
+      "m_demolition": 20,
       "m_pushback": 25,
       "m_unk1": 10,
       "m_unk2": 0,
@@ -2142,7 +2210,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 126,
+      "m_id": 130,
       "m_max_damage": 600,
       "m_min_damage": 600,
       "m_penetration_no_angle": 4,
@@ -2159,7 +2227,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 127,
+      "m_id": 131,
       "m_max_damage": 260,
       "m_min_damage": 260,
       "m_penetration_no_angle": 4,
@@ -2176,7 +2244,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 128,
+      "m_id": 132,
       "m_max_damage": 250,
       "m_min_damage": 50,
       "m_penetration_no_angle": 5,
@@ -2193,7 +2261,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 129,
+      "m_id": 133,
       "m_max_damage": 300,
       "m_min_damage": 60,
       "m_penetration_no_angle": 5,
@@ -2210,7 +2278,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 130,
+      "m_id": 134,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 5,
@@ -2227,7 +2295,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 131,
+      "m_id": 135,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 3,
@@ -2244,15 +2312,15 @@
       "m_unk6": 0
    },
    {
-      "m_id": 132,
+      "m_id": 136,
       "m_max_damage": 300,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 4,
-      "m_penetration_angle": 3,
-      "m_penetration_3": 2,
+      "m_min_damage": 100,
+      "m_penetration_no_angle": 5,
+      "m_penetration_angle": 5,
+      "m_penetration_3": 4,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 30,
+      "m_pushback": 35,
       "m_unk1": 3,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -2261,7 +2329,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 133,
+      "m_id": 137,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 4,
@@ -2278,7 +2346,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 134,
+      "m_id": 138,
       "m_max_damage": 250,
       "m_min_damage": 250,
       "m_penetration_no_angle": 3,
@@ -2295,7 +2363,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 135,
+      "m_id": 139,
       "m_max_damage": 650,
       "m_min_damage": 650,
       "m_penetration_no_angle": 6,
@@ -2312,7 +2380,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 136,
+      "m_id": 140,
       "m_max_damage": 650,
       "m_min_damage": 650,
       "m_penetration_no_angle": 6,
@@ -2329,7 +2397,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 137,
+      "m_id": 141,
       "m_max_damage": 800,
       "m_min_damage": 800,
       "m_penetration_no_angle": 6,
@@ -2346,7 +2414,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 138,
+      "m_id": 142,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 4,
@@ -2363,7 +2431,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 139,
+      "m_id": 143,
       "m_max_damage": 200,
       "m_min_damage": 200,
       "m_penetration_no_angle": 3,
@@ -2380,16 +2448,16 @@
       "m_unk6": 0
    },
    {
-      "m_id": 140,
-      "m_max_damage": 200,
-      "m_min_damage": 200,
+      "m_id": 144,
+      "m_max_damage": 300,
+      "m_min_damage": 300,
       "m_penetration_no_angle": 5,
       "m_penetration_angle": 5,
-      "m_penetration_3": 3,
+      "m_penetration_3": 5,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 20,
-      "m_unk1": 15,
+      "m_pushback": 35,
+      "m_unk1": 10,
       "m_unk2": 0,
       "m_unk3": 0,
       "m_stun_factor": 0,
@@ -2397,7 +2465,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 141,
+      "m_id": 145,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 0,
@@ -2414,7 +2482,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 142,
+      "m_id": 146,
       "m_max_damage": 500,
       "m_min_damage": 500,
       "m_penetration_no_angle": 5,
@@ -2431,7 +2499,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 143,
+      "m_id": 147,
       "m_max_damage": 500,
       "m_min_damage": 500,
       "m_penetration_no_angle": 5,
@@ -2448,9 +2516,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 144,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
+      "m_id": 148,
+      "m_max_damage": 60,
+      "m_min_damage": 60,
       "m_penetration_no_angle": 8,
       "m_penetration_angle": 8,
       "m_penetration_3": 8,
@@ -2465,13 +2533,13 @@
       "m_unk6": 0
    },
    {
-      "m_id": 145,
-      "m_max_damage": 500,
-      "m_min_damage": 500,
+      "m_id": 149,
+      "m_max_damage": 450,
+      "m_min_damage": 450,
       "m_penetration_no_angle": 6,
-      "m_penetration_angle": 5,
-      "m_penetration_3": 3,
-      "m_penetration_4": 0,
+      "m_penetration_angle": 6,
+      "m_penetration_3": 6,
+      "m_penetration_4": 3,
       "m_demolition": 40,
       "m_pushback": 50,
       "m_unk1": 25,
@@ -2482,7 +2550,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 146,
+      "m_id": 150,
       "m_max_damage": 500,
       "m_min_damage": 500,
       "m_penetration_no_angle": 6,
@@ -2499,7 +2567,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 147,
+      "m_id": 151,
       "m_max_damage": 400,
       "m_min_damage": 400,
       "m_penetration_no_angle": 6,
@@ -2516,7 +2584,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 148,
+      "m_id": 152,
       "m_max_damage": 600,
       "m_min_damage": 600,
       "m_penetration_no_angle": 5,
@@ -2533,7 +2601,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 149,
+      "m_id": 153,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 8,
@@ -2550,7 +2618,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 150,
+      "m_id": 154,
       "m_max_damage": 1500,
       "m_min_damage": 1500,
       "m_penetration_no_angle": 8,
@@ -2567,7 +2635,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 151,
+      "m_id": 155,
       "m_max_damage": 500,
       "m_min_damage": 500,
       "m_penetration_no_angle": 4,
@@ -2584,12 +2652,12 @@
       "m_unk6": 0
    },
    {
-      "m_id": 152,
-      "m_max_damage": 600,
-      "m_min_damage": 600,
-      "m_penetration_no_angle": 5,
-      "m_penetration_angle": 5,
-      "m_penetration_3": 5,
+      "m_id": 156,
+      "m_max_damage": 250,
+      "m_min_damage": 250,
+      "m_penetration_no_angle": 6,
+      "m_penetration_angle": 6,
+      "m_penetration_3": 6,
       "m_penetration_4": 0,
       "m_demolition": 40,
       "m_pushback": 20,
@@ -2601,7 +2669,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 153,
+      "m_id": 157,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 6,
@@ -2618,7 +2686,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 154,
+      "m_id": 158,
       "m_max_damage": 1400,
       "m_min_damage": 1400,
       "m_penetration_no_angle": 7,
@@ -2635,7 +2703,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 155,
+      "m_id": 159,
       "m_max_damage": 800,
       "m_min_damage": 800,
       "m_penetration_no_angle": 8,
@@ -2652,7 +2720,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 156,
+      "m_id": 160,
       "m_max_damage": 800,
       "m_min_damage": 800,
       "m_penetration_no_angle": 8,
@@ -2669,7 +2737,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 157,
+      "m_id": 161,
       "m_max_damage": 800,
       "m_min_damage": 800,
       "m_penetration_no_angle": 6,
@@ -2686,7 +2754,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 158,
+      "m_id": 162,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 7,
@@ -2703,7 +2771,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 159,
+      "m_id": 163,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 7,
@@ -2720,7 +2788,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 160,
+      "m_id": 164,
       "m_max_damage": 450,
       "m_min_damage": 450,
       "m_penetration_no_angle": 8,
@@ -2737,7 +2805,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 161,
+      "m_id": 165,
       "m_max_damage": 2000,
       "m_min_damage": 2000,
       "m_penetration_no_angle": 10,
@@ -2754,7 +2822,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 162,
+      "m_id": 166,
       "m_max_damage": 250,
       "m_min_damage": 250,
       "m_penetration_no_angle": 3,
@@ -2771,7 +2839,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 163,
+      "m_id": 167,
       "m_max_damage": 800,
       "m_min_damage": 800,
       "m_penetration_no_angle": 8,
@@ -2788,7 +2856,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 164,
+      "m_id": 168,
       "m_max_damage": -1,
       "m_min_damage": -1,
       "m_penetration_no_angle": 0,
@@ -2805,7 +2873,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 165,
+      "m_id": 169,
       "m_max_damage": 2800,
       "m_min_damage": 2800,
       "m_penetration_no_angle": 8,
@@ -2822,7 +2890,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 166,
+      "m_id": 170,
       "m_max_damage": -1,
       "m_min_damage": -1,
       "m_penetration_no_angle": 0,
@@ -2839,24 +2907,24 @@
       "m_unk6": 0
    },
    {
-      "m_id": 167,
-      "m_max_damage": 50,
-      "m_min_damage": 10,
+      "m_id": 171,
+      "m_max_damage": 65,
+      "m_min_damage": 65,
       "m_penetration_no_angle": 2,
       "m_penetration_angle": 2,
       "m_penetration_3": 1,
       "m_penetration_4": 1,
       "m_demolition": 10,
       "m_pushback": 25,
-      "m_unk1": 55,
+      "m_unk1": 25,
       "m_unk2": 0,
-      "m_unk3": 2,
-      "m_stun_factor": 25,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 168,
+      "m_id": 172,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 0,
@@ -2873,7 +2941,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 169,
+      "m_id": 173,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -2884,13 +2952,13 @@
       "m_pushback": 0,
       "m_unk1": 0,
       "m_unk2": 0,
-      "m_unk3": 35,
+      "m_unk3": 37,
       "m_stun_factor": 25,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 170,
+      "m_id": 174,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -2901,13 +2969,13 @@
       "m_pushback": 0,
       "m_unk1": 0,
       "m_unk2": 0,
-      "m_unk3": 35,
+      "m_unk3": 37,
       "m_stun_factor": 25,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 171,
+      "m_id": 175,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -2918,13 +2986,13 @@
       "m_pushback": 11,
       "m_unk1": 0,
       "m_unk2": 0,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 25,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 172,
+      "m_id": 176,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 3,
@@ -2941,7 +3009,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 173,
+      "m_id": 177,
       "m_max_damage": 70,
       "m_min_damage": 70,
       "m_penetration_no_angle": 3,
@@ -2958,7 +3026,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 174,
+      "m_id": 178,
       "m_max_damage": 175,
       "m_min_damage": 175,
       "m_penetration_no_angle": 6,
@@ -2975,7 +3043,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 175,
+      "m_id": 179,
       "m_max_damage": 10,
       "m_min_damage": 10,
       "m_penetration_no_angle": 6,
@@ -2992,9 +3060,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 176,
-      "m_max_damage": 50,
-      "m_min_damage": 50,
+      "m_id": 180,
+      "m_max_damage": 85,
+      "m_min_damage": 85,
       "m_penetration_no_angle": 6,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
@@ -3009,7 +3077,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 177,
+      "m_id": 181,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 3,
@@ -3026,7 +3094,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 178,
+      "m_id": 182,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 3,
@@ -3043,7 +3111,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 179,
+      "m_id": 183,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -3054,13 +3122,13 @@
       "m_pushback": 10,
       "m_unk1": 40,
       "m_unk2": 0,
-      "m_unk3": 47,
+      "m_unk3": 49,
       "m_stun_factor": 50,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 180,
+      "m_id": 184,
       "m_max_damage": 75,
       "m_min_damage": 75,
       "m_penetration_no_angle": 3,
@@ -3077,7 +3145,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 181,
+      "m_id": 185,
       "m_max_damage": 125,
       "m_min_damage": 125,
       "m_penetration_no_angle": 3,
@@ -3094,7 +3162,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 182,
+      "m_id": 186,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 3,
@@ -3111,7 +3179,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 183,
+      "m_id": 187,
       "m_max_damage": 25,
       "m_min_damage": 25,
       "m_penetration_no_angle": 3,
@@ -3128,7 +3196,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 184,
+      "m_id": 188,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -3145,7 +3213,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 185,
+      "m_id": 189,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -3162,7 +3230,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 186,
+      "m_id": 190,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -3179,7 +3247,24 @@
       "m_unk6": 0
    },
    {
-      "m_id": 187,
+      "m_id": 191,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 3,
+      "m_penetration_3": 3,
+      "m_penetration_4": 0,
+      "m_demolition": 10,
+      "m_pushback": 35,
+      "m_unk1": 30,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 192,
       "m_max_damage": 400,
       "m_min_damage": 400,
       "m_penetration_no_angle": 6,
@@ -3196,7 +3281,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 188,
+      "m_id": 193,
       "m_max_damage": 5,
       "m_min_damage": 5,
       "m_penetration_no_angle": 3,
@@ -3213,7 +3298,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 189,
+      "m_id": 194,
       "m_max_damage": 15,
       "m_min_damage": 15,
       "m_penetration_no_angle": 3,
@@ -3230,7 +3315,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 190,
+      "m_id": 195,
       "m_max_damage": 20,
       "m_min_damage": 20,
       "m_penetration_no_angle": 3,
@@ -3247,7 +3332,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 191,
+      "m_id": 196,
       "m_max_damage": 5,
       "m_min_damage": 5,
       "m_penetration_no_angle": 0,
@@ -3264,7 +3349,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 192,
+      "m_id": 197,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -3281,7 +3366,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 193,
+      "m_id": 198,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 3,
@@ -3292,13 +3377,13 @@
       "m_pushback": 40,
       "m_unk1": 40,
       "m_unk2": 0,
-      "m_unk3": 35,
+      "m_unk3": 37,
       "m_stun_factor": 100,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 194,
+      "m_id": 199,
       "m_max_damage": 30,
       "m_min_damage": 3,
       "m_penetration_no_angle": 3,
@@ -3315,7 +3400,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 195,
+      "m_id": 200,
       "m_max_damage": 20,
       "m_min_damage": 20,
       "m_penetration_no_angle": 2,
@@ -3326,13 +3411,13 @@
       "m_pushback": 10,
       "m_unk1": 10,
       "m_unk2": 0,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 25,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 196,
+      "m_id": 201,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 3,
@@ -3349,7 +3434,24 @@
       "m_unk6": 0
    },
    {
-      "m_id": 197,
+      "m_id": 202,
+      "m_max_damage": 130,
+      "m_min_damage": 130,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 20,
+      "m_unk1": 40,
+      "m_unk2": 1,
+      "m_unk3": 6,
+      "m_stun_factor": 10,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 203,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -3366,7 +3468,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 198,
+      "m_id": 204,
       "m_max_damage": 250,
       "m_min_damage": 250,
       "m_penetration_no_angle": 3,
@@ -3383,7 +3485,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 199,
+      "m_id": 205,
       "m_max_damage": 600,
       "m_min_damage": 600,
       "m_penetration_no_angle": 3,
@@ -3400,7 +3502,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 200,
+      "m_id": 206,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 3,
@@ -3417,7 +3519,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 201,
+      "m_id": 207,
       "m_max_damage": 250,
       "m_min_damage": 250,
       "m_penetration_no_angle": 3,
@@ -3434,7 +3536,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 202,
+      "m_id": 208,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -3451,7 +3553,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 203,
+      "m_id": 209,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -3468,7 +3570,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 204,
+      "m_id": 210,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 7,
@@ -3485,7 +3587,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 205,
+      "m_id": 211,
       "m_max_damage": 190,
       "m_min_damage": 190,
       "m_penetration_no_angle": 3,
@@ -3502,7 +3604,24 @@
       "m_unk6": 0
    },
    {
-      "m_id": 206,
+      "m_id": 212,
+      "m_max_damage": 340,
+      "m_min_damage": 340,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 20,
+      "m_pushback": 35,
+      "m_unk1": 40,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 213,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -3519,7 +3638,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 207,
+      "m_id": 214,
       "m_max_damage": 1,
       "m_min_damage": 1,
       "m_penetration_no_angle": 10,
@@ -3536,7 +3655,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 208,
+      "m_id": 215,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 3,
@@ -3553,7 +3672,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 209,
+      "m_id": 216,
       "m_max_damage": 75,
       "m_min_damage": 75,
       "m_penetration_no_angle": 3,
@@ -3570,7 +3689,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 210,
+      "m_id": 217,
       "m_max_damage": 10,
       "m_min_damage": 10,
       "m_penetration_no_angle": 3,
@@ -3581,13 +3700,13 @@
       "m_pushback": 50,
       "m_unk1": 50,
       "m_unk2": 0,
-      "m_unk3": 34,
+      "m_unk3": 36,
       "m_stun_factor": 25,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 211,
+      "m_id": 218,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 2,
@@ -3604,7 +3723,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 212,
+      "m_id": 219,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -3621,7 +3740,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 213,
+      "m_id": 220,
       "m_max_damage": 400,
       "m_min_damage": 400,
       "m_penetration_no_angle": 4,
@@ -3638,7 +3757,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 214,
+      "m_id": 221,
       "m_max_damage": 250,
       "m_min_damage": 250,
       "m_penetration_no_angle": 3,
@@ -3646,127 +3765,8 @@
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 10,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 215,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 216,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 217,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 218,
-      "m_max_damage": 100,
-      "m_min_damage": 100,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 219,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 220,
-      "m_max_damage": 350,
-      "m_min_damage": 350,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 25,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 221,
-      "m_max_damage": 75,
-      "m_min_damage": 75,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 25,
-      "m_unk1": 40,
+      "m_pushback": 35,
+      "m_unk1": 5,
       "m_unk2": 0,
       "m_unk3": 0,
       "m_stun_factor": 0,
@@ -3775,14 +3775,14 @@
    },
    {
       "m_id": 222,
-      "m_max_damage": 250,
-      "m_min_damage": 250,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
       "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 25,
+      "m_pushback": 40,
       "m_unk1": 40,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -3792,14 +3792,14 @@
    },
    {
       "m_id": 223,
-      "m_max_damage": 400,
-      "m_min_damage": 400,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
       "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 35,
+      "m_pushback": 40,
       "m_unk1": 40,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -3809,14 +3809,14 @@
    },
    {
       "m_id": 224,
-      "m_max_damage": 350,
-      "m_min_damage": 350,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
       "m_penetration_no_angle": 3,
-      "m_penetration_angle": 3,
-      "m_penetration_3": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 50,
+      "m_pushback": 40,
       "m_unk1": 40,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -3826,14 +3826,14 @@
    },
    {
       "m_id": 225,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
+      "m_max_damage": 100,
+      "m_min_damage": 100,
       "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 50,
+      "m_pushback": 40,
       "m_unk1": 40,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -3850,6 +3850,125 @@
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
+      "m_pushback": 30,
+      "m_unk1": 30,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 227,
+      "m_max_damage": 400,
+      "m_min_damage": 400,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 25,
+      "m_unk1": 30,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 228,
+      "m_max_damage": 75,
+      "m_min_damage": 75,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 25,
+      "m_unk1": 40,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 229,
+      "m_max_damage": 250,
+      "m_min_damage": 250,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 25,
+      "m_unk1": 40,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 230,
+      "m_max_damage": 400,
+      "m_min_damage": 400,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 35,
+      "m_unk1": 40,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 231,
+      "m_max_damage": 350,
+      "m_min_damage": 350,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 3,
+      "m_penetration_3": 3,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 50,
+      "m_unk1": 40,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 232,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 50,
+      "m_unk1": 40,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 233,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
       "m_pushback": 60,
       "m_unk1": 40,
       "m_unk2": 0,
@@ -3859,7 +3978,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 227,
+      "m_id": 234,
       "m_max_damage": 650,
       "m_min_damage": 650,
       "m_penetration_no_angle": 6,
@@ -3876,7 +3995,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 228,
+      "m_id": 235,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -3893,7 +4012,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 229,
+      "m_id": 236,
       "m_max_damage": 350,
       "m_min_damage": 350,
       "m_penetration_no_angle": 3,
@@ -3910,7 +4029,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 230,
+      "m_id": 237,
       "m_max_damage": 450,
       "m_min_damage": 450,
       "m_penetration_no_angle": 3,
@@ -3927,7 +4046,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 231,
+      "m_id": 238,
       "m_max_damage": 250,
       "m_min_damage": 250,
       "m_penetration_no_angle": 3,
@@ -3940,138 +4059,19 @@
       "m_unk2": 1,
       "m_unk3": 6,
       "m_stun_factor": 100,
-      "m_unk5": 29,
+      "m_unk5": 31,
       "m_unk6": 50
-   },
-   {
-      "m_id": 232,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 5,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 233,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 5,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 40,
-      "m_unk1": 40,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 234,
-      "m_max_damage": 400,
-      "m_min_damage": 400,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 60,
-      "m_unk1": 70,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 235,
-      "m_max_damage": 400,
-      "m_min_damage": 400,
-      "m_penetration_no_angle": 5,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 60,
-      "m_unk1": 70,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 236,
-      "m_max_damage": 200,
-      "m_min_damage": 200,
-      "m_penetration_no_angle": 5,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 60,
-      "m_unk1": 70,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 237,
-      "m_max_damage": 200,
-      "m_min_damage": 200,
-      "m_penetration_no_angle": 5,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 60,
-      "m_unk1": 70,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
-   },
-   {
-      "m_id": 238,
-      "m_max_damage": 150,
-      "m_min_damage": 150,
-      "m_penetration_no_angle": 3,
-      "m_penetration_angle": 0,
-      "m_penetration_3": 0,
-      "m_penetration_4": 0,
-      "m_demolition": 30,
-      "m_pushback": 60,
-      "m_unk1": 70,
-      "m_unk2": 0,
-      "m_unk3": 0,
-      "m_stun_factor": 0,
-      "m_unk5": 0,
-      "m_unk6": 0
    },
    {
       "m_id": 239,
       "m_max_damage": 150,
       "m_min_damage": 150,
-      "m_penetration_no_angle": 5,
+      "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 30,
+      "m_pushback": 40,
       "m_unk1": 40,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -4088,7 +4088,7 @@
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
-      "m_pushback": 30,
+      "m_pushback": 40,
       "m_unk1": 40,
       "m_unk2": 0,
       "m_unk3": 0,
@@ -4098,9 +4098,128 @@
    },
    {
       "m_id": 241,
+      "m_max_damage": 400,
+      "m_min_damage": 400,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 60,
+      "m_unk1": 70,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 242,
+      "m_max_damage": 400,
+      "m_min_damage": 400,
+      "m_penetration_no_angle": 5,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 60,
+      "m_unk1": 70,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 243,
       "m_max_damage": 200,
       "m_min_damage": 200,
       "m_penetration_no_angle": 5,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 60,
+      "m_unk1": 70,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 244,
+      "m_max_damage": 200,
+      "m_min_damage": 200,
+      "m_penetration_no_angle": 5,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 60,
+      "m_unk1": 70,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 245,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 60,
+      "m_unk1": 70,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 246,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 30,
+      "m_unk1": 10,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 247,
+      "m_max_damage": 150,
+      "m_min_damage": 150,
+      "m_penetration_no_angle": 5,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 30,
+      "m_pushback": 40,
+      "m_unk1": 20,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 248,
+      "m_max_damage": 200,
+      "m_min_damage": 200,
+      "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
       "m_penetration_4": 0,
@@ -4114,7 +4233,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 242,
+      "m_id": 249,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 3,
@@ -4131,9 +4250,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 243,
-      "m_max_damage": 200,
-      "m_min_damage": 200,
+      "m_id": 250,
+      "m_max_damage": 350,
+      "m_min_damage": 350,
       "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
@@ -4148,24 +4267,24 @@
       "m_unk6": 0
    },
    {
-      "m_id": 244,
-      "m_max_damage": 250,
-      "m_min_damage": 250,
+      "m_id": 251,
+      "m_max_damage": 210,
+      "m_min_damage": 210,
       "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 30,
       "m_pushback": 30,
-      "m_unk1": 40,
+      "m_unk1": 30,
       "m_unk2": 0,
-      "m_unk3": 0,
+      "m_unk3": 6,
       "m_stun_factor": 0,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 245,
+      "m_id": 252,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 5,
@@ -4182,7 +4301,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 246,
+      "m_id": 253,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 3,
@@ -4199,7 +4318,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 247,
+      "m_id": 254,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 10,
@@ -4216,7 +4335,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 248,
+      "m_id": 255,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 3,
@@ -4233,7 +4352,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 249,
+      "m_id": 256,
       "m_max_damage": 400,
       "m_min_damage": 400,
       "m_penetration_no_angle": 5,
@@ -4250,7 +4369,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 250,
+      "m_id": 257,
       "m_max_damage": 5,
       "m_min_damage": 5,
       "m_penetration_no_angle": 3,
@@ -4267,7 +4386,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 251,
+      "m_id": 258,
       "m_max_damage": 550,
       "m_min_damage": 550,
       "m_penetration_no_angle": 3,
@@ -4284,7 +4403,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 252,
+      "m_id": 259,
       "m_max_damage": 660,
       "m_min_damage": 660,
       "m_penetration_no_angle": 3,
@@ -4301,7 +4420,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 253,
+      "m_id": 260,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -4318,7 +4437,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 254,
+      "m_id": 261,
       "m_max_damage": 800,
       "m_min_damage": 800,
       "m_penetration_no_angle": 5,
@@ -4335,7 +4454,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 255,
+      "m_id": 262,
       "m_max_damage": 800,
       "m_min_damage": 800,
       "m_penetration_no_angle": 5,
@@ -4352,7 +4471,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 256,
+      "m_id": 263,
       "m_max_damage": 1750,
       "m_min_damage": 1750,
       "m_penetration_no_angle": 6,
@@ -4369,7 +4488,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 257,
+      "m_id": 264,
       "m_max_damage": 60,
       "m_min_damage": 60,
       "m_penetration_no_angle": 3,
@@ -4386,7 +4505,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 258,
+      "m_id": 265,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 10,
@@ -4403,7 +4522,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 259,
+      "m_id": 266,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 5,
@@ -4420,7 +4539,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 260,
+      "m_id": 267,
       "m_max_damage": 1250,
       "m_min_damage": 1250,
       "m_penetration_no_angle": 10,
@@ -4437,7 +4556,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 261,
+      "m_id": 268,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -4454,7 +4573,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 262,
+      "m_id": 269,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 3,
@@ -4471,9 +4590,9 @@
       "m_unk6": 0
    },
    {
-      "m_id": 263,
-      "m_max_damage": 80,
-      "m_min_damage": 80,
+      "m_id": 270,
+      "m_max_damage": 20,
+      "m_min_damage": 20,
       "m_penetration_no_angle": 3,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
@@ -4488,7 +4607,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 264,
+      "m_id": 271,
       "m_max_damage": 400,
       "m_min_damage": 400,
       "m_penetration_no_angle": 3,
@@ -4505,7 +4624,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 265,
+      "m_id": 272,
       "m_max_damage": 200,
       "m_min_damage": 200,
       "m_penetration_no_angle": 3,
@@ -4522,7 +4641,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 266,
+      "m_id": 273,
       "m_max_damage": 500,
       "m_min_damage": 500,
       "m_penetration_no_angle": 6,
@@ -4539,7 +4658,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 267,
+      "m_id": 274,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 6,
@@ -4556,7 +4675,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 268,
+      "m_id": 275,
       "m_max_damage": 750,
       "m_min_damage": 750,
       "m_penetration_no_angle": 5,
@@ -4573,7 +4692,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 269,
+      "m_id": 276,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -4584,13 +4703,13 @@
       "m_pushback": 10,
       "m_unk1": 40,
       "m_unk2": 5,
-      "m_unk3": 39,
+      "m_unk3": 41,
       "m_stun_factor": 100,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 270,
+      "m_id": 277,
       "m_max_damage": 600,
       "m_min_damage": 600,
       "m_penetration_no_angle": 4,
@@ -4607,7 +4726,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 271,
+      "m_id": 278,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 4,
@@ -4624,7 +4743,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 272,
+      "m_id": 279,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -4641,7 +4760,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 273,
+      "m_id": 280,
       "m_max_damage": 1200,
       "m_min_damage": 1200,
       "m_penetration_no_angle": 6,
@@ -4658,7 +4777,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 274,
+      "m_id": 281,
       "m_max_damage": 1750,
       "m_min_damage": 1750,
       "m_penetration_no_angle": 6,
@@ -4675,7 +4794,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 275,
+      "m_id": 282,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 3,
@@ -4692,7 +4811,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 276,
+      "m_id": 283,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -4709,7 +4828,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 277,
+      "m_id": 284,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 3,
@@ -4726,7 +4845,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 278,
+      "m_id": 285,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 5,
@@ -4743,7 +4862,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 279,
+      "m_id": 286,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 3,
@@ -4760,7 +4879,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 280,
+      "m_id": 287,
       "m_max_damage": 200,
       "m_min_damage": 200,
       "m_penetration_no_angle": 3,
@@ -4777,7 +4896,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 281,
+      "m_id": 288,
       "m_max_damage": 300,
       "m_min_damage": 300,
       "m_penetration_no_angle": 3,
@@ -4794,7 +4913,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 282,
+      "m_id": 289,
       "m_max_damage": 200,
       "m_min_damage": 200,
       "m_penetration_no_angle": 5,
@@ -4811,7 +4930,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 283,
+      "m_id": 290,
       "m_max_damage": 700,
       "m_min_damage": 700,
       "m_penetration_no_angle": 6,
@@ -4828,7 +4947,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 284,
+      "m_id": 291,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 5,
@@ -4845,7 +4964,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 285,
+      "m_id": 292,
       "m_max_damage": 20,
       "m_min_damage": 20,
       "m_penetration_no_angle": 5,
@@ -4862,7 +4981,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 286,
+      "m_id": 293,
       "m_max_damage": -1,
       "m_min_damage": -1,
       "m_penetration_no_angle": 3,
@@ -4879,7 +4998,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 287,
+      "m_id": 294,
       "m_max_damage": 4000,
       "m_min_damage": 4000,
       "m_penetration_no_angle": 10,
@@ -4896,7 +5015,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 288,
+      "m_id": 295,
       "m_max_damage": 2000,
       "m_min_damage": 2000,
       "m_penetration_no_angle": 3,
@@ -4913,7 +5032,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 289,
+      "m_id": 296,
       "m_max_damage": 1500,
       "m_min_damage": 1500,
       "m_penetration_no_angle": 6,
@@ -4930,7 +5049,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 290,
+      "m_id": 297,
       "m_max_damage": 2000,
       "m_min_damage": 2000,
       "m_penetration_no_angle": 10,
@@ -4947,7 +5066,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 291,
+      "m_id": 298,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 10,
@@ -4964,7 +5083,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 292,
+      "m_id": 299,
       "m_max_damage": 5,
       "m_min_damage": 5,
       "m_penetration_no_angle": 3,
@@ -4975,30 +5094,30 @@
       "m_pushback": 55,
       "m_unk1": 55,
       "m_unk2": 0,
-      "m_unk3": 35,
+      "m_unk3": 37,
       "m_stun_factor": 25,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 293,
-      "m_max_damage": 15,
-      "m_min_damage": 15,
-      "m_penetration_no_angle": 3,
+      "m_id": 300,
+      "m_max_damage": 100,
+      "m_min_damage": 100,
+      "m_penetration_no_angle": 2,
       "m_penetration_angle": 0,
       "m_penetration_3": 0,
       "m_penetration_4": 0,
       "m_demolition": 10,
-      "m_pushback": 25,
-      "m_unk1": 25,
+      "m_pushback": 30,
+      "m_unk1": 30,
       "m_unk2": 0,
-      "m_unk3": 2,
-      "m_stun_factor": 25,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 294,
+      "m_id": 301,
       "m_max_damage": 15,
       "m_min_damage": 15,
       "m_penetration_no_angle": 3,
@@ -5009,13 +5128,13 @@
       "m_pushback": 15,
       "m_unk1": 15,
       "m_unk2": 0,
-      "m_unk3": 46,
-      "m_stun_factor": 75,
-      "m_unk5": 35,
-      "m_unk6": 50
+      "m_unk3": 37,
+      "m_stun_factor": 50,
+      "m_unk5": 0,
+      "m_unk6": 0
    },
    {
-      "m_id": 295,
+      "m_id": 302,
       "m_max_damage": 5,
       "m_min_damage": 5,
       "m_penetration_no_angle": 3,
@@ -5026,13 +5145,13 @@
       "m_pushback": 35,
       "m_unk1": 30,
       "m_unk2": 0,
-      "m_unk3": 39,
+      "m_unk3": 41,
       "m_stun_factor": 50,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 296,
+      "m_id": 303,
       "m_max_damage": 200,
       "m_min_damage": 20,
       "m_penetration_no_angle": 2,
@@ -5049,7 +5168,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 297,
+      "m_id": 304,
       "m_max_damage": 350,
       "m_min_damage": 70,
       "m_penetration_no_angle": 2,
@@ -5066,7 +5185,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 298,
+      "m_id": 305,
       "m_max_damage": 200,
       "m_min_damage": 40,
       "m_penetration_no_angle": 2,
@@ -5083,7 +5202,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 299,
+      "m_id": 306,
       "m_max_damage": 300,
       "m_min_damage": 90,
       "m_penetration_no_angle": 2,
@@ -5100,7 +5219,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 300,
+      "m_id": 307,
       "m_max_damage": 360,
       "m_min_damage": 108,
       "m_penetration_no_angle": 1,
@@ -5117,7 +5236,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 301,
+      "m_id": 308,
       "m_max_damage": 175,
       "m_min_damage": 17,
       "m_penetration_no_angle": 3,
@@ -5134,7 +5253,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 302,
+      "m_id": 309,
       "m_max_damage": 350,
       "m_min_damage": 200,
       "m_penetration_no_angle": 4,
@@ -5151,7 +5270,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 303,
+      "m_id": 310,
       "m_max_damage": 550,
       "m_min_damage": 165,
       "m_penetration_no_angle": 3,
@@ -5168,7 +5287,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 304,
+      "m_id": 311,
       "m_max_damage": 300,
       "m_min_damage": 60,
       "m_penetration_no_angle": 2,
@@ -5185,7 +5304,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 305,
+      "m_id": 312,
       "m_max_damage": 30,
       "m_min_damage": 15,
       "m_penetration_no_angle": 6,
@@ -5202,7 +5321,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 306,
+      "m_id": 313,
       "m_max_damage": 100,
       "m_min_damage": 50,
       "m_penetration_no_angle": 6,
@@ -5219,7 +5338,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 307,
+      "m_id": 314,
       "m_max_damage": 200,
       "m_min_damage": 60,
       "m_penetration_no_angle": 3,
@@ -5236,7 +5355,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 308,
+      "m_id": 315,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 5,
@@ -5253,7 +5372,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 309,
+      "m_id": 316,
       "m_max_damage": 50,
       "m_min_damage": 25,
       "m_penetration_no_angle": 4,
@@ -5270,7 +5389,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 310,
+      "m_id": 317,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 7,
@@ -5287,7 +5406,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 311,
+      "m_id": 318,
       "m_max_damage": 3,
       "m_min_damage": 0,
       "m_penetration_no_angle": 1,
@@ -5304,7 +5423,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 312,
+      "m_id": 319,
       "m_max_damage": 100,
       "m_min_damage": 20,
       "m_penetration_no_angle": 6,
@@ -5321,7 +5440,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 313,
+      "m_id": 320,
       "m_max_damage": 1,
       "m_min_damage": 1,
       "m_penetration_no_angle": 9,
@@ -5338,7 +5457,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 314,
+      "m_id": 321,
       "m_max_damage": 15,
       "m_min_damage": 15,
       "m_penetration_no_angle": 0,
@@ -5355,7 +5474,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 315,
+      "m_id": 322,
       "m_max_damage": 1000,
       "m_min_damage": 1000,
       "m_penetration_no_angle": 0,
@@ -5372,7 +5491,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 316,
+      "m_id": 323,
       "m_max_damage": 400,
       "m_min_damage": 80,
       "m_penetration_no_angle": 2,
@@ -5389,7 +5508,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 317,
+      "m_id": 324,
       "m_max_damage": 10,
       "m_min_damage": 10,
       "m_penetration_no_angle": 0,
@@ -5406,7 +5525,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 318,
+      "m_id": 325,
       "m_max_damage": 10,
       "m_min_damage": 10,
       "m_penetration_no_angle": 0,
@@ -5423,7 +5542,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 319,
+      "m_id": 326,
       "m_max_damage": 15,
       "m_min_damage": 15,
       "m_penetration_no_angle": 0,
@@ -5440,7 +5559,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 320,
+      "m_id": 327,
       "m_max_damage": 5,
       "m_min_damage": 0,
       "m_penetration_no_angle": 1,
@@ -5457,7 +5576,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 321,
+      "m_id": 328,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 6,
@@ -5474,7 +5593,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 322,
+      "m_id": 329,
       "m_max_damage": 75,
       "m_min_damage": 75,
       "m_penetration_no_angle": 6,
@@ -5491,7 +5610,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 323,
+      "m_id": 330,
       "m_max_damage": 500,
       "m_min_damage": 250,
       "m_penetration_no_angle": 7,
@@ -5508,7 +5627,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 324,
+      "m_id": 331,
       "m_max_damage": 1,
       "m_min_damage": 1,
       "m_penetration_no_angle": 9,
@@ -5525,7 +5644,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 325,
+      "m_id": 332,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 0,
@@ -5542,7 +5661,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 326,
+      "m_id": 333,
       "m_max_damage": 50,
       "m_min_damage": 5,
       "m_penetration_no_angle": 1,
@@ -5559,7 +5678,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 327,
+      "m_id": 334,
       "m_max_damage": 70,
       "m_min_damage": 7,
       "m_penetration_no_angle": 1,
@@ -5576,7 +5695,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 328,
+      "m_id": 335,
       "m_max_damage": 75,
       "m_min_damage": 7,
       "m_penetration_no_angle": 2,
@@ -5593,7 +5712,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 329,
+      "m_id": 336,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 7,
@@ -5610,7 +5729,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 330,
+      "m_id": 337,
       "m_max_damage": 35,
       "m_min_damage": 35,
       "m_penetration_no_angle": 7,
@@ -5627,7 +5746,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 331,
+      "m_id": 338,
       "m_max_damage": 500,
       "m_min_damage": 500,
       "m_penetration_no_angle": 7,
@@ -5644,7 +5763,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 332,
+      "m_id": 339,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 7,
@@ -5661,7 +5780,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 333,
+      "m_id": 340,
       "m_max_damage": 65,
       "m_min_damage": 65,
       "m_penetration_no_angle": 7,
@@ -5678,7 +5797,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 334,
+      "m_id": 341,
       "m_max_damage": 500,
       "m_min_damage": 500,
       "m_penetration_no_angle": 7,
@@ -5695,7 +5814,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 335,
+      "m_id": 342,
       "m_max_damage": 350,
       "m_min_damage": 350,
       "m_penetration_no_angle": 7,
@@ -5712,7 +5831,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 336,
+      "m_id": 343,
       "m_max_damage": 30,
       "m_min_damage": 30,
       "m_penetration_no_angle": 7,
@@ -5729,7 +5848,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 337,
+      "m_id": 344,
       "m_max_damage": 1,
       "m_min_damage": 1,
       "m_penetration_no_angle": 7,
@@ -5746,7 +5865,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 338,
+      "m_id": 345,
       "m_max_damage": 30,
       "m_min_damage": 15,
       "m_penetration_no_angle": 2,
@@ -5763,7 +5882,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 339,
+      "m_id": 346,
       "m_max_damage": 30,
       "m_min_damage": 30,
       "m_penetration_no_angle": 2,
@@ -5780,7 +5899,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 340,
+      "m_id": 347,
       "m_max_damage": 35,
       "m_min_damage": 3,
       "m_penetration_no_angle": 1,
@@ -5797,7 +5916,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 341,
+      "m_id": 348,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 0,
@@ -5814,7 +5933,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 342,
+      "m_id": 349,
       "m_max_damage": 40,
       "m_min_damage": 40,
       "m_penetration_no_angle": 2,
@@ -5831,7 +5950,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 343,
+      "m_id": 350,
       "m_max_damage": 30,
       "m_min_damage": 30,
       "m_penetration_no_angle": 4,
@@ -5848,7 +5967,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 344,
+      "m_id": 351,
       "m_max_damage": 75,
       "m_min_damage": 37,
       "m_penetration_no_angle": 3,
@@ -5865,7 +5984,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 345,
+      "m_id": 352,
       "m_max_damage": 30,
       "m_min_damage": 15,
       "m_penetration_no_angle": 2,
@@ -5882,7 +6001,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 346,
+      "m_id": 353,
       "m_max_damage": 30,
       "m_min_damage": 15,
       "m_penetration_no_angle": 3,
@@ -5899,7 +6018,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 347,
+      "m_id": 354,
       "m_max_damage": 20,
       "m_min_damage": 10,
       "m_penetration_no_angle": 2,
@@ -5916,7 +6035,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 348,
+      "m_id": 355,
       "m_max_damage": 40,
       "m_min_damage": 40,
       "m_penetration_no_angle": 3,
@@ -5933,7 +6052,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 349,
+      "m_id": 356,
       "m_max_damage": 35,
       "m_min_damage": 35,
       "m_penetration_no_angle": 2,
@@ -5950,7 +6069,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 350,
+      "m_id": 357,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 6,
@@ -5961,13 +6080,13 @@
       "m_pushback": 10,
       "m_unk1": 10,
       "m_unk2": 0,
-      "m_unk3": 36,
+      "m_unk3": 38,
       "m_stun_factor": 75,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 351,
+      "m_id": 358,
       "m_max_damage": 3000,
       "m_min_damage": 3000,
       "m_penetration_no_angle": 10,
@@ -5984,7 +6103,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 352,
+      "m_id": 359,
       "m_max_damage": 10,
       "m_min_damage": 5,
       "m_penetration_no_angle": 1,
@@ -6001,7 +6120,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 353,
+      "m_id": 360,
       "m_max_damage": 10,
       "m_min_damage": 5,
       "m_penetration_no_angle": 1,
@@ -6018,7 +6137,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 354,
+      "m_id": 361,
       "m_max_damage": 30,
       "m_min_damage": 15,
       "m_penetration_no_angle": 3,
@@ -6035,7 +6154,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 355,
+      "m_id": 362,
       "m_max_damage": 40,
       "m_min_damage": 20,
       "m_penetration_no_angle": 3,
@@ -6052,7 +6171,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 356,
+      "m_id": 363,
       "m_max_damage": 150,
       "m_min_damage": 150,
       "m_penetration_no_angle": 5,
@@ -6069,7 +6188,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 357,
+      "m_id": 364,
       "m_max_damage": 200,
       "m_min_damage": 200,
       "m_penetration_no_angle": 4,
@@ -6086,7 +6205,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 358,
+      "m_id": 365,
       "m_max_damage": 200,
       "m_min_damage": 200,
       "m_penetration_no_angle": 4,
@@ -6103,7 +6222,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 359,
+      "m_id": 366,
       "m_max_damage": 40,
       "m_min_damage": 20,
       "m_penetration_no_angle": 2,
@@ -6120,7 +6239,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 360,
+      "m_id": 367,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 3,
@@ -6137,7 +6256,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 361,
+      "m_id": 368,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 3,
@@ -6154,7 +6273,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 362,
+      "m_id": 369,
       "m_max_damage": 20,
       "m_min_damage": 2,
       "m_penetration_no_angle": 1,
@@ -6171,7 +6290,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 363,
+      "m_id": 370,
       "m_max_damage": 80,
       "m_min_damage": 80,
       "m_penetration_no_angle": 6,
@@ -6188,7 +6307,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 364,
+      "m_id": 371,
       "m_max_damage": 10,
       "m_min_damage": 10,
       "m_penetration_no_angle": 10,
@@ -6201,11 +6320,11 @@
       "m_unk2": 0,
       "m_unk3": 4,
       "m_stun_factor": 1,
-      "m_unk5": 41,
+      "m_unk5": 43,
       "m_unk6": 1
    },
    {
-      "m_id": 365,
+      "m_id": 372,
       "m_max_damage": 0,
       "m_min_damage": 0,
       "m_penetration_no_angle": 10,
@@ -6216,13 +6335,30 @@
       "m_pushback": 10,
       "m_unk1": 10,
       "m_unk2": 0,
-      "m_unk3": 41,
+      "m_unk3": 43,
       "m_stun_factor": 1,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 366,
+      "m_id": 373,
+      "m_max_damage": 0,
+      "m_min_damage": 0,
+      "m_penetration_no_angle": 10,
+      "m_penetration_angle": 0,
+      "m_penetration_3": 0,
+      "m_penetration_4": 0,
+      "m_demolition": 0,
+      "m_pushback": 10,
+      "m_unk1": 10,
+      "m_unk2": 0,
+      "m_unk3": 14,
+      "m_stun_factor": 1,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 374,
       "m_max_damage": 20,
       "m_min_damage": 2,
       "m_penetration_no_angle": 2,
@@ -6239,7 +6375,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 367,
+      "m_id": 375,
       "m_max_damage": 25,
       "m_min_damage": 25,
       "m_penetration_no_angle": 10,
@@ -6250,13 +6386,13 @@
       "m_pushback": 20,
       "m_unk1": 10,
       "m_unk2": 0,
-      "m_unk3": 36,
+      "m_unk3": 38,
       "m_stun_factor": 100,
       "m_unk5": 0,
       "m_unk6": 0
    },
    {
-      "m_id": 368,
+      "m_id": 376,
       "m_max_damage": 45,
       "m_min_damage": 4,
       "m_penetration_no_angle": 2,
@@ -6273,7 +6409,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 369,
+      "m_id": 377,
       "m_max_damage": 160,
       "m_min_damage": 80,
       "m_penetration_no_angle": 5,
@@ -6290,7 +6426,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 370,
+      "m_id": 378,
       "m_max_damage": 50,
       "m_min_damage": 50,
       "m_penetration_no_angle": 10,
@@ -6307,7 +6443,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 371,
+      "m_id": 379,
       "m_max_damage": 120,
       "m_min_damage": 120,
       "m_penetration_no_angle": 2,
@@ -6324,7 +6460,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 372,
+      "m_id": 380,
       "m_max_damage": 25,
       "m_min_damage": 25,
       "m_penetration_no_angle": 2,
@@ -6341,7 +6477,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 373,
+      "m_id": 381,
       "m_max_damage": 30,
       "m_min_damage": 30,
       "m_penetration_no_angle": 5,
@@ -6358,7 +6494,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 374,
+      "m_id": 382,
       "m_max_damage": 20,
       "m_min_damage": 10,
       "m_penetration_no_angle": 1,
@@ -6375,7 +6511,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 375,
+      "m_id": 383,
       "m_max_damage": 15,
       "m_min_damage": 15,
       "m_penetration_no_angle": 2,
@@ -6392,7 +6528,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 376,
+      "m_id": 384,
       "m_max_damage": 25,
       "m_min_damage": 25,
       "m_penetration_no_angle": 2,
@@ -6409,7 +6545,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 377,
+      "m_id": 385,
       "m_max_damage": 100,
       "m_min_damage": 100,
       "m_penetration_no_angle": 10,
@@ -6426,7 +6562,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 378,
+      "m_id": 386,
       "m_max_damage": 500,
       "m_min_damage": 5,
       "m_penetration_no_angle": 1,
@@ -6443,7 +6579,7 @@
       "m_unk6": 0
    },
    {
-      "m_id": 379,
+      "m_id": 387,
       "m_max_damage": 500,
       "m_min_damage": 5,
       "m_penetration_no_angle": 1,
@@ -6453,6 +6589,23 @@
       "m_demolition": 40,
       "m_pushback": 2,
       "m_unk1": 2,
+      "m_unk2": 0,
+      "m_unk3": 0,
+      "m_stun_factor": 0,
+      "m_unk5": 0,
+      "m_unk6": 0
+   },
+   {
+      "m_id": 388,
+      "m_max_damage": 250,
+      "m_min_damage": 100,
+      "m_penetration_no_angle": 3,
+      "m_penetration_angle": 3,
+      "m_penetration_3": 3,
+      "m_penetration_4": 3,
+      "m_demolition": 10,
+      "m_pushback": 35,
+      "m_unk1": 5,
       "m_unk2": 0,
       "m_unk3": 0,
       "m_stun_factor": 0,

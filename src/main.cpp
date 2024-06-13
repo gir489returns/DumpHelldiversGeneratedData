@@ -1,11 +1,11 @@
 #define NOMINMAX
-#include <Windows.h>
+#include <windows.h>
+#include <iostream>
 #include <random>
 #include <glaze/glaze.hpp>
 #include <cstdint>
-#include "PatternScanner.hpp"
 
-DWORD damage_struct_size = 0;
+#define DAMAGE_STRUCT_SIZE 389
 
 class CDamageInstance
 {
@@ -22,7 +22,7 @@ public:
 	int32_t m_unk1; //0x0024
 	int32_t m_unk2; //0x0028
 	int32_t m_unk3; //0x002C
-	float m_unk4; //0x0030
+	float m_stun_factor; //0x0030
 	int32_t m_unk5; //0x0034
 	float m_unk6; //0x0038
 private:
@@ -53,7 +53,7 @@ struct glz::meta<CDamageInstance>
 			&T::m_unk1,
 			&T::m_unk2,
 			&T::m_unk3,
-			&T::m_unk4,
+			&T::m_stun_factor,
 			&T::m_unk5,
 			&T::m_unk6);
 };
@@ -61,122 +61,109 @@ struct glz::meta<CDamageInstance>
 class generated_damage_settings
 {
 public:
-#ifdef _DEBUG
-	generated_damage_settings()
-	{
-		for (auto& item : m_damage_instances)
-		{
-			item = new CDamageInstance;
-		}
-	}
-	~generated_damage_settings()
-	{
-		for (auto& item : m_damage_instances)
-		{
-			delete item;
-		}
-	}
 
-	CDamageInstance* m_damage_instances[380]; // 0x0000
-#else
-	CDamageInstance* m_damage_instances[]; // 0x0000
-#endif
+	CDamageInstance m_damage_instances[DAMAGE_STRUCT_SIZE]; // 0x0000
 }; // Size: 0x0BE0
 
 void dump_damage_data(generated_damage_settings* inst)
 {
-	auto damage_instance_span = std::span(inst->m_damage_instances, damage_struct_size); //memset(generated_damage_settings, 0, 0xBE0ui64);
+	auto damage_instance_span = std::span(inst->m_damage_instances, DAMAGE_STRUCT_SIZE); //memset(generated_damage_settings, 0, 0xBE0ui64);
 
 	// ignoring the return because compiler asks us not to
-#ifdef _DEBUG
 	(void)glz::write_file_json < glz::opts{ .prettify = true } > (damage_instance_span, "generated_damage_settings.json", std::string{});
-#else
-	(void)glz::write_file_json < glz::opts{ .prettify = true } > (damage_instance_span, "./data/game/generated_damage_settings.json", std::string{});
-#endif
 
 	// no clue why this doesn't work, can be figured out later
 	// https://github.com/stephenberry/glaze/blob/main/docs/csv.md
 	// (void)glz::write_file_csv(span_hack, "test.csv", std::string{});
 }
 
-#ifdef _DEBUG
 int main()
 {
-	std::random_device dev;
-	std::mt19937 rng(dev());
-	std::uniform_int_distribution<std::mt19937::result_type> dist(0, std::numeric_limits<std::uint32_t>::max());
+	//auto generated_damage_settings_constructor = PatternScanner::Scan("E8 ? ? ? ? 48 8B 3D ? ? ? ? 48 8B 87").GetCall().To<std::uint8_t*>();
+	//if (generated_damage_settings_constructor == nullptr)
+	//{
+	//	MessageBox(NULL, "Failed to find generated_damage_settings_constructor. Defaulting to size 380.", "ERROR", MB_ICONERROR | MB_OK);
+	//	damage_struct_size = 380;
+	//}
+	//else
+	//{
+	//	for (int i = 0; i < 0x100; i++)
+	//	{
+	//		if (*reinterpret_cast<std::uint16_t*>(generated_damage_settings_constructor + i) == 0xB841)
+	//		{
+	//			damage_struct_size = *reinterpret_cast<std::uint32_t*>(generated_damage_settings_constructor + i + 2);
+	//			damage_struct_size /= 8;
+	//			break;
+	//		}
+	//	}
+	//	if (damage_struct_size == NULL)
+	//	{
+	//		MessageBox(NULL, "Failed to find memset instruction size. Defaulting to size 380.", "ERROR", MB_ICONERROR | MB_OK);
+	//		damage_struct_size = 380;
+	//	}
+	//}
+	//
+	//auto generated_damage_settings_instance = PatternScanner::Scan("48 8D 15 ? ? ? ? 89 46").GetRef(0x3).To<generated_damage_settings*>();
+	//if (generated_damage_settings_instance == nullptr)
+	//{
+	//	MessageBox(NULL, "generated_damage_settings instance signature failed.", "ERROR", MB_ICONERROR | MB_OK);
+	//}
+	//else
+	//{
+	//	dump_damage_data(generated_damage_settings_instance);
+	//}
 
 	auto inst = new generated_damage_settings();
 
-	int i = 0;
-	for (auto tmp : inst->m_damage_instances)
+	DWORD processID = 0;
+	SIZE_T bytesRead;
+	DWORD buffer = 0;
+
+	// Get the process ID
+	HWND hwnd = FindWindow(NULL, "HELLDIVERS™ 2");
+	if (hwnd == NULL)
 	{
-		tmp->m_id = i++;
-		tmp->m_max_damage = dist(rng);
-		tmp->m_min_damage = dist(rng);
-		tmp->m_penetration_no_angle = dist(rng);
-		tmp->m_penetration_angle = dist(rng);
-		tmp->m_penetration_3 = dist(rng);
-		tmp->m_penetration_4 = dist(rng);
-		tmp->m_demolition = dist(rng);
-		tmp->m_pushback = dist(rng);
-		tmp->m_unk1 = dist(rng);
-		tmp->m_unk2 = dist(rng);
-		tmp->m_unk3 = dist(rng);
-		tmp->m_unk4 = dist(rng);
-		tmp->m_unk5 = dist(rng);
-		tmp->m_unk6 = dist(rng);
+		std::cerr << "Cannot find Helldivers 2." << std::endl;
+		return 1;
+	}
+
+	GetWindowThreadProcessId(hwnd, &processID);
+
+	// Open the process
+	HANDLE process = OpenProcess(PROCESS_VM_READ, FALSE, processID);
+	if (process == NULL)
+	{
+		std::cerr << "Cannot open Helldivers 2." << std::endl;
+		return 1;
+	}
+
+	LPCVOID pointers[DAMAGE_STRUCT_SIZE];
+
+	// Read the memory
+	if (ReadProcessMemory(process, (LPCVOID)0x7FF98080DE60, &pointers, sizeof(pointers), &bytesRead))
+	{
+		std::cout << "Pointer read successfully." << std::endl;
+	}
+	else
+	{
+		std::cerr << "Failed to read memory from Helldivers 2." << std::endl;
+	}
+
+	int position = 0;
+	for (auto instance : pointers)
+	{
+		if (ReadProcessMemory(process, instance, &inst->m_damage_instances[position], sizeof(CDamageInstance), &bytesRead))
+		{
+			std::cout << "Weapon " << position << " read successfully." << std::endl;
+		}
+		else
+		{
+			std::cerr << "Failed to read memory from Helldivers 2." << std::endl;
+		}
+		position++;
 	}
 
 	dump_damage_data(inst);
 
 	return 0;
 }
-#else
-
-BOOL WINAPI DllMain(
-	HINSTANCE hinstDLL, // handle to DLL module
-	DWORD fdwReason,    // reason for calling function
-	LPVOID lpvReserved) // reserved
-{
-	// Perform actions based on the reason for calling.
-	if (fdwReason == DLL_PROCESS_ATTACH)
-	{
-		auto generated_damage_settings_constructor = PatternScanner::Scan("E8 ? ? ? ? 48 8B 3D ? ? ? ? 48 8B 87").GetCall().To<std::uint8_t*>();
-		if (generated_damage_settings_constructor == nullptr)
-		{
-			MessageBox(NULL, "Failed to find generated_damage_settings_constructor. Defaulting to size 380.", "ERROR", MB_ICONERROR | MB_OK);
-			damage_struct_size = 380;
-		}
-		else
-		{
-			for (int i = 0; i < 0x100; i++)
-			{
-				if (*reinterpret_cast<std::uint16_t*>(generated_damage_settings_constructor + i) == 0xB841)
-				{
-					damage_struct_size = *reinterpret_cast<std::uint32_t*>(generated_damage_settings_constructor + i + 2);
-					damage_struct_size /= 8;
-					break;
-				}
-			}
-			if (damage_struct_size == NULL)
-			{
-				MessageBox(NULL, "Failed to find memset instruction size. Defaulting to size 380.", "ERROR", MB_ICONERROR | MB_OK);
-				damage_struct_size = 380;
-			}
-		}
-
-		auto generated_damage_settings_instance = PatternScanner::Scan("48 8D 15 ? ? ? ? 89 46").GetRef(0x3).To<generated_damage_settings*>();
-		if (generated_damage_settings_instance == nullptr)
-		{
-			MessageBox(NULL, "generated_damage_settings instance signature failed.", "ERROR", MB_ICONERROR | MB_OK);
-		}
-		else
-		{
-			dump_damage_data(generated_damage_settings_instance);
-		}
-		return TRUE; // Successful DLL_PROCESS_ATTACH
-	}
-}
-
-#endif

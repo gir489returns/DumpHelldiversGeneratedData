@@ -6,6 +6,7 @@
 #include <cstdint>
 
 #define DAMAGE_STRUCT_SIZE 389
+#define DAMAGE_POINTER_LOCATION 0x7FF96215DE60
 
 class CDamageInstance
 {
@@ -140,7 +141,7 @@ int main()
 	LPCVOID pointers[DAMAGE_STRUCT_SIZE];
 
 	// Read the memory
-	if (ReadProcessMemory(process, (LPCVOID)0x7FF98080DE60, &pointers, sizeof(pointers), &bytesRead))
+	if (ReadProcessMemory(process, (LPCVOID)DAMAGE_POINTER_LOCATION, &pointers, sizeof(pointers), &bytesRead))
 	{
 		std::cout << "Pointer read successfully." << std::endl;
 	}
@@ -149,18 +150,16 @@ int main()
 		std::cerr << "Failed to read memory from Helldivers 2." << std::endl;
 	}
 
-	int position = 0;
-	for (auto instance : pointers)
+	for (int i = 1; i < DAMAGE_STRUCT_SIZE; i++)
 	{
-		if (ReadProcessMemory(process, instance, &inst->m_damage_instances[position], sizeof(CDamageInstance), &bytesRead))
+		if (ReadProcessMemory(process, pointers[i], &inst->m_damage_instances[i], sizeof(CDamageInstance), &bytesRead))
 		{
-			std::cout << "Weapon " << position << " read successfully." << std::endl;
+			std::cout << "Weapon " << i << " read successfully." << std::endl;
 		}
 		else
 		{
-			std::cerr << "Failed to read memory from Helldivers 2." << std::endl;
+			std::cerr << "Pointer " << i << " failed to read." << std::endl;
 		}
-		position++;
 	}
 
 	dump_damage_data(inst);

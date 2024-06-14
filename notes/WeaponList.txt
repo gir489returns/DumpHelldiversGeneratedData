@@ -3,6 +3,7 @@
 #10 // GL-21 part 1 projectile / mortar shell (turret)
 #19 // LAS-16 Sickle
 #20 // SG-8P Punisher Plasma (1) / PLAS-1 Scorcher
+#21 // PLAS-101 Purifier Impact
 #23 // RS-422 railgun
 #26 // P-19 Redeemer
 #27 // MP-98 Knight
@@ -41,6 +42,7 @@
 #153 // FAF-14 Spear 1 shell
 #188 // PLAS-1 Scorcher explosion
 #190 // SG-8P Punisher Plasma explosion
+#191 // PLAS-101 Purifier Explosion
 #208 // RL-77 airburst (ground???)
 #211 // R-36 Eruptor 3
 #222 // autocannon part 2 explosion

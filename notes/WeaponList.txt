@@ -97,3 +97,4 @@
 #316 // Napalm SEAF burn
 #317 // G-123 Thermite (burn)
 #328 // Orbital Gas
+#333 // Melee

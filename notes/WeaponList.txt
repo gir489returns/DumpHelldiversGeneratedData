@@ -16,6 +16,7 @@
 #51 // AR-23C Liberator Concussive
 #52 // AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
 #66 // MG-43 / EXO-45 Gatling / Gatling Turret / BR-14 Adjudicator / AR-L20 Jus
+#73 // AR-61 Tenderizer
 #75 // R-63 Diligence
 #76 // R-63CS Diligence Counter Sniper
 #82 // R-36 Eruptor 1

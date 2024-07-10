@@ -39,6 +39,7 @@
 #138 // GP-31 grenade pistol part 1 (part 2 = gren launcher explo)
 #139 // EAT-17 part 1
 #140 // recoil-less rifle part 1 shell
+#149 // MLS-4X Commando part 1 shell
 #151 // EXO-45 rocket part 1
 #153 // FAF-14 Spear 1 shell
 #188 // PLAS-1 Scorcher explosion
@@ -54,6 +55,7 @@
 #233 // EAT-17 part 3
 #234 // LAS-99 quasar part 1
 #235 // LAS-99 quasar part 2
+#239 // MLS-4X Commando part 2 explosion
 #241 // EXO-45 rocket part 2
 #243 // FAF-14 Spear 2 explosion
 #303 // LAS-7 Dagger

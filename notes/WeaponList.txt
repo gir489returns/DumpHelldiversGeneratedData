@@ -89,7 +89,7 @@
 #240 // Explosion_Projectile_OrbitalShot Eagle Clusterbomb pods
 #242 // Explosion_Projectile_EagleBomb_Napalm Napalm SEAF impact
 #250 // Explosion_Projectile_Rocket_70mm rocket sentry turret 2
-#252 // Eagle 110MM rocket pods
+#252 // Explosion_Projectile_Rocket_110mm Eagle 110MM rocket pods
 #254 // Explosion_ContactMine anti personnel mines
 #256 // Explosion_AntiTankMine anti tank mines
 #264 // Explosion_Projectile_EagleBomb_Impact Eagle Airstrike Impact

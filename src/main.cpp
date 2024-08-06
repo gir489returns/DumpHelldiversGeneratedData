@@ -6,8 +6,8 @@
 #include <cstdint>
 
 #define DAMAGE_STRUCT_SIZE 396
-#define DAMAGE_POINTER_LOCATION 0x7FFEAF7138B0
-#define DAMAGE_STRING_LOCATION 0x1EBD22EA3C9 //DamageInfoType_Projectile_Boomer_AcidStream
+#define DAMAGE_POINTER_LOCATION 0x7FFE5DCA38B0
+#define DAMAGE_STRING_LOCATION 0x1CC54B4A3B5 //DamageInfoType_None
 
 class CDamageInstance
 {
@@ -187,7 +187,7 @@ int main()
 	std::cout << "Reading damage names." << std::endl;
 
 	// Read the specified chunk of memory
-	SIZE_T length = 20000;
+	SIZE_T length = 0x20000;
 	std::vector<char> char_buffer(length);
 	if (!ReadProcessMemory(process, (LPCVOID)DAMAGE_STRING_LOCATION, char_buffer.data(), length, &bytesRead)) {
 		std::cerr << "Failed to read damage names." << std::endl;
@@ -206,7 +206,7 @@ int main()
 	std::cout << "Spliting names." << std::endl;
 
 	// Output the split text parts
-	int i = 1;
+	int i = 0;
 	for (const std::string& part : splitTextParts) {
 		if (part == "DamageInfoType_Count")
 			break;

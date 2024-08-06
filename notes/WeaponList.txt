@@ -36,7 +36,7 @@
 #128 // anti material rifle
 #130 // CB-9 explosive crossbow 1
 #131 // CB-9 explosive crossbow 2
-#133 // autocannon part 1 // projectile
+#133 // autocannon part 1
 #135 // emancipator exo gun part 1
 #140 // GP-31 grenade pistol part 1 (part 2 = gren launcher explo)
 #141 // EAT-17 part 1
@@ -61,8 +61,8 @@
 #245 // EXO-45 rocket part 2
 #247 // FAF-14 Spear 2 explosion
 #310 // LAS-7 Dagger
-#304 // LAS-5 Scythe
-#311 // LAS-98
+#311 // LAS-5 Scythe
+#316 // LAS-98
 #395 // K-2 Throwing Knife
 
 // these weapons stay default
@@ -79,8 +79,8 @@
 #165 // Orbital 120MM HE barrage impact
 #166 // Orbital 380MM HE barrage/precison strike/walking impact
 #169 // Orbital railcannon impact
-#211 // G-6 Frag part 1 // shares ID with airburst rocket launcher (cluster)
-#213 // G-10 Incendiary/incendiary mines (explosion) // burning is ground fire 309 like flame tornadoes or flamethrower ground fire
+#211 // G-6 Frag part 1
+#213 // G-10 Incendiary/incendiary mines (explosion)
 #214 // G-123 Thermite (explosion)
 #224 // G-12 High Explosive /  G-16 Impact
 #225 // Eagle strafing run pods

@@ -6,7 +6,8 @@
 #include <cstdint>
 
 #define DAMAGE_STRUCT_SIZE 396
-#define DAMAGE_POINTER_LOCATION 0x7FFCEE8B38B0
+#define DAMAGE_POINTER_LOCATION 0x7FFEAF7138B0
+#define DAMAGE_STRING_LOCATION 0x1EBD22EA3C9 //DamageInfoType_Projectile_Boomer_AcidStream
 
 class CDamageInstance
 {
@@ -22,14 +23,13 @@ public:
 	int32_t m_pushback; //0x0020
 	int32_t m_unk1; //0x0024
 	int32_t m_unk2; //0x0028
-	int32_t m_unk3; //0x002C
+	int32_t m_status_effect_type; //0x002C
 	float m_stun_factor; //0x0030
 	int32_t m_unk5; //0x0034
 	float m_unk6; //0x0038
-private:
-	char pad_003C[16]; //0x003C
+	char m_name[100];
 }; //Size: 0x004C
-static_assert(sizeof(CDamageInstance) == 0x4C);
+//static_assert(sizeof(CDamageInstance) == 0x4C);
 
 /**
  * @brief Specify the values we want to export
@@ -43,6 +43,7 @@ struct glz::meta<CDamageInstance>
 	static constexpr auto value =
 		object(
 			&T::m_id,
+			&T::m_name,
 			&T::m_max_damage,
 			&T::m_min_damage,
 			&T::m_penetration_no_angle,
@@ -53,7 +54,7 @@ struct glz::meta<CDamageInstance>
 			&T::m_pushback,
 			&T::m_unk1,
 			&T::m_unk2,
-			&T::m_unk3,
+			&T::m_status_effect_type,
 			&T::m_stun_factor,
 			&T::m_unk5,
 			&T::m_unk6);
@@ -77,6 +78,27 @@ void dump_damage_data(generated_damage_settings* inst)
 	// https://github.com/stephenberry/glaze/blob/main/docs/csv.md
 	// (void)glz::write_file_csv(span_hack, "test.csv", std::string{});
 }
+
+std::vector<std::string> splitText(const std::string& text, char delimiter) {
+	std::vector<std::string> parts;
+	std::string part;
+	for (char ch : text) {
+		if (ch == delimiter) {
+			if (!part.empty()) {
+				parts.push_back(part);
+				part.clear();
+			}
+		}
+		else {
+			part += ch;
+		}
+	}
+	if (!part.empty()) {
+		parts.push_back(part);
+	}
+	return parts;
+}
+
 
 int main()
 {
@@ -162,7 +184,41 @@ int main()
 		}
 	}
 
+	std::cout << "Reading damage names." << std::endl;
+
+	// Read the specified chunk of memory
+	SIZE_T length = 20000;
+	std::vector<char> char_buffer(length);
+	if (!ReadProcessMemory(process, (LPCVOID)DAMAGE_STRING_LOCATION, char_buffer.data(), length, &bytesRead)) {
+		std::cerr << "Failed to read damage names." << std::endl;
+		CloseHandle(process);
+		return 1;
+	}
+
+	std::cout << "Read damage names." << std::endl;
+
+	// Convert buffer to string
+	std::string textChunk(char_buffer.begin(), char_buffer.end());
+
+	// Split the text by periods
+	std::vector<std::string> splitTextParts = splitText(textChunk, '\0');
+
+	std::cout << "Spliting names." << std::endl;
+
+	// Output the split text parts
+	int i = 1;
+	for (const std::string& part : splitTextParts) {
+		if (part == "DamageInfoType_Count")
+			break;
+		std::cout << "Found damage name: " << part.substr(15, 100) << std::endl;
+		strcpy(inst->m_damage_instances[i++].m_name, part.substr(15, 100).c_str());
+	}
+
+	std::cout << "Flushing to disk." << std::endl;
+
 	dump_damage_data(inst);
+
+	std::cout << "Finished." << std::endl;
 
 	return 0;
 }

@@ -1,106 +1,108 @@
 // whitelisted weapons that get super damage
 #9 // FLAM-40 part 1
-#10 // GL-21 part 1 projectile / mortar shell (turret)
-#19 // LAS-16 Sickle
-#20 // SG-8P Punisher Plasma (1) / PLAS-1 Scorcher
-#21 // PLAS-101 Purifier Impact
-#23 // RS-422 railgun
-#26 // P-19 Redeemer
-#27 // MP-98 Knight
-#28 // P-2 Peacemaker
-#35 // SMG-37 Defender
-#42 // SMG-72 Pummeler
-#43 // P-113 Verdict
-#45 // P-4 Senator
-#49 // AR-23P Liberator Penetrator
-#51 // AR-23C Liberator Concussive
-#52 // AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
-#66 // MG-43 / EXO-45 Gatling / Gatling Turret / BR-14 Adjudicator / AR-L20 Jus
-#73 // AR-61 Tenderizer
-#75 // R-63 Diligence
-#76 // R-63CS Diligence Counter Sniper
-#82 // R-36 Eruptor 1
-#86 // JAR-5 Dominator
-#91 // SG-8 Punisher / SG-22 Bushwack
-#103 // SG-8S Slugger
-#105 // SG-225SP Breaker Spray&Pray
-#106 // SG-225 Breaker
-#108 // SG-225NS Breaker Nailspitter
-#109 // SG-225IE Breaker Incendiary
-#119 // ARC-3 Arc Thrower
-#121 // ARC-12 Blitzer
-#124 // HMG Emplacement
-#125 // MG-206 HMG
-#126 // anti material rifle
-#128 // CB-9 explosive crossbow 1
-#129 // CB-9 explosive crossbow 2
-#131 // autocannon part 1 // projectile
-#133 // emancipator exo gun part 1
-#138 // GP-31 grenade pistol part 1 (part 2 = gren launcher explo)
-#139 // EAT-17 part 1
-#140 // recoil-less rifle part 1 shell
-#149 // MLS-4X Commando part 1 shell
-#151 // EXO-45 rocket part 1
-#153 // FAF-14 Spear 1 shell
-#188 // PLAS-1 Scorcher explosion
-#190 // SG-8P Punisher Plasma explosion
-#191 // PLAS-101 Purifier Explosion
-#208 // RL-77 airburst (ground???)
-#211 // R-36 Eruptor 3
-#222 // autocannon part 2 explosion
-#223 // emancipator exo gun part 2
-#227 // GL-21 / GP-31 grenade pistol explosion
-#231 // RL-77 airburst (rocket)
-#232 // recoil-less rifle part 2 explosion
-#233 // EAT-17 part 3
-#234 // LAS-99 quasar part 1
-#235 // LAS-99 quasar part 2
-#239 // MLS-4X Commando part 2 explosion
-#241 // EXO-45 rocket part 2
-#243 // FAF-14 Spear 2 explosion
-#303 // LAS-7 Dagger
+#12 // GL-21 part 1 projectile / mortar shell (turret)
+#21 // LAS-16 Sickle
+#22 // SG-8P Punisher Plasma (1) / PLAS-1 Scorcher
+#23 // PLAS-101 Purifier Impact
+#25 // RS-422 railgun
+#28 // P-19 Redeemer
+#29 // MP-98 Knight
+#30 // P-2 Peacemaker
+#37 // SMG-37 Defender
+#44 // SMG-72 Pummeler
+#45 // P-113 Verdict
+#47 // P-4 Senator
+#51 // AR-23P Liberator Penetrator
+#53 // AR-23C Liberator Concussive
+#54 // AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
+#68 // MG-43 / EXO-45 Gatling / Gatling Turret / BR-14 Adjudicator / AR-L20 Jus
+#75 // AR-61 Tenderizer
+#77 // R-63 Diligence
+#78 // R-63CS Diligence Counter Sniper
+#84 // R-36 Eruptor 1
+#88 // JAR-5 Dominator
+#93 // SG-8 Punisher / SG-22 Bushwack
+#94 // SG-451 Cookout
+#105 // SG-8S Slugger
+#107 // SG-225SP Breaker Spray&Pray
+#108 // SG-225 Breaker
+#109 // SG-225BB Breaker BugBiter
+#110 // SG-225NS Breaker Nailspitter
+#111 // SG-225IE Breaker Incendiary
+#121 // ARC-3 Arc Thrower
+#123 // ARC-12 Blitzer
+#126 // HMG Emplacement
+#127 // MG-206 HMG
+#128 // anti material rifle
+#130 // CB-9 explosive crossbow 1
+#131 // CB-9 explosive crossbow 2
+#133 // autocannon part 1 // projectile
+#135 // emancipator exo gun part 1
+#140 // GP-31 grenade pistol part 1 (part 2 = gren launcher explo)
+#141 // EAT-17 part 1
+#142 // recoil-less rifle part 1 shell
+#151 // MLS-4X Commando part 1 shell
+#153 // EXO-45 rocket part 1
+#155 // FAF-14 Spear 1 shell
+#192 // PLAS-1 Scorcher explosion
+#194 // SG-8P Punisher Plasma explosion
+#195 // PLAS-101 Purifier Explosion
+#212 // RL-77 airburst (ground???)
+#215 // R-36 Eruptor 3
+#226 // autocannon part 2 explosion
+#227 // emancipator exo gun part 2
+#231 // GL-21 / GP-31 grenade pistol explosion
+#235 // RL-77 airburst (rocket)
+#236 // recoil-less rifle part 2 explosion
+#237 // EAT-17 part 3
+#238 // LAS-99 quasar part 1
+#239 // LAS-99 quasar part 2
+#243 // MLS-4X Commando part 2 explosion
+#245 // EXO-45 rocket part 2
+#247 // FAF-14 Spear 2 explosion
+#310 // LAS-7 Dagger
 #304 // LAS-5 Scythe
-#309 // LAS-98
-#388 // K-2 Throwing Knife
+#311 // LAS-98
+#395 // K-2 Throwing Knife
 
 // these weapons stay default
-#115 // G-6 Frag part 2
-#116 // Orbital airburst impact
-#130 // tesla tower
-#134 // Autocannon Sentry impact
-#136 // Eagle strafing run impact
-#144 // rocket sentry turret 1
-#146 // Eagle airstrike impact
-#156 // Eagle 110MM rocket pods impact
-#158 // 500KG bomb impact
-#162 // Orbital gas canister impact
-#163 // Orbital 120MM HE barrage impact
-#164 // Orbital 380MM HE barrage/precison strike/walking impact
-#165 // Orbital railcannon impact
-#207 // G-6 Frag part 1 // shares ID with airburst rocket launcher (cluster)
-#209 // G-10 Incendiary/incendiary mines (explosion) // burning is ground fire 309 like flame tornadoes or flamethrower ground fire
-#210 // G-123 Thermite (explosion)
-#220 // G-12 High Explosive /  G-16 Impact
-#221 // Eagle strafing run pods
-#226 // Autocannon sentry explosion
-#230 // mortar turred explosion
-#236 // Eagle Clusterbomb pods
-#238 // Napalm SEAF impact
-#246 // rocket sentry turret 2
-#248 // Eagle 110MM rocket pods
-#250 // anti personnel mines
-#252 // anti tank mines
-#261 // Eagle Airstrike
-#265 // Hellpod impact damage
-#273 // Orbital railcannon explosion
-#274 // Orbital 380MM HE barrage/walking explosion
-#275 // Orbital 120MM HE barrage
-#280 // High-yield SEAF explosion/500KG Bomb Explosion
-#289 // Impact Fall damage
-#294 // Hellbomb / SEAF Mini-Nuke
-#305 // AX/LAS-5 "Guard Dog" Rover
-#312 // Orbital Laser
-#316 // Napalm SEAF burn
-#317 // G-123 Thermite (burn)
-#328 // Orbital Gas
-#333 // Melee
+#117 // G-6 Frag part 2
+#118 // Orbital airburst impact
+#132 // tesla tower
+#136 // Autocannon Sentry impact
+#138 // Eagle strafing run impact
+#146 // rocket sentry turret 1
+#148 // Eagle airstrike impact
+#158 // Eagle 110MM rocket pods impact
+#160 // 500KG bomb impact
+#164 // Orbital gas canister impact
+#165 // Orbital 120MM HE barrage impact
+#166 // Orbital 380MM HE barrage/precison strike/walking impact
+#169 // Orbital railcannon impact
+#211 // G-6 Frag part 1 // shares ID with airburst rocket launcher (cluster)
+#213 // G-10 Incendiary/incendiary mines (explosion) // burning is ground fire 309 like flame tornadoes or flamethrower ground fire
+#214 // G-123 Thermite (explosion)
+#224 // G-12 High Explosive /  G-16 Impact
+#225 // Eagle strafing run pods
+#230 // Autocannon sentry explosion
+#234 // mortar turred explosion
+#240 // Eagle Clusterbomb pods
+#242 // Napalm SEAF impact
+#250 // rocket sentry turret 2
+#252 // Eagle 110MM rocket pods
+#254 // anti personnel mines
+#256 // anti tank mines
+#265 // Eagle Airstrike
+#269 // Hellpod impact damage
+#279 // Orbital railcannon explosion
+#280 // Orbital 380MM HE barrage/walking explosion
+#281 // Orbital 120MM HE barrage
+#286 // High-yield SEAF explosion/500KG Bomb Explosion
+#295 // Impact Fall damage
+#300 // Hellbomb / SEAF Mini-Nuke
+#312 // AX/LAS-5 "Guard Dog" Rover
+#319 // Orbital Laser
+#323 // Napalm SEAF burn
+#324 // G-123 Thermite (burn)
+#334 // Orbital Gas
+#339 // Melee

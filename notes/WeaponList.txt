@@ -100,7 +100,7 @@
 #281 // Explosion_Projectile_OrbitalStrike Orbital 120MM HE barrage
 #286 // Explosion_Projectile_EagleBomb_500kg High-yield SEAF explosion/500KG Bomb Explosion
 #300 // Explosion_Hellbomb Hellbomb / SEAF Mini-Nuke
-#302 // ICBM Explode
+#302 // Explosion_ICBM_explode
 #312 // DPS_BeamMediumDrone AX/LAS-5 "Guard Dog" Rover
 #319 // DPS_BeamHuge Orbital Laser
 #323 // DPS_Fire Napalm SEAF burn

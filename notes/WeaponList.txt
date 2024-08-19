@@ -124,6 +124,7 @@
 #251 // Explosion_Projectile_Rocket_70mm_HE
 #252 // Explosion_Projectile_Rocket_110mm Eagle 110MM rocket pods
 #254 // Explosion_ContactMine anti personnel mines
+#255 // Explosion_ContactMine_Incendiary
 #256 // Explosion_AntiTankMine anti tank mines
 #264 // Explosion_Projectile_EagleBomb_Impact Eagle Airstrike Impact
 #265 // Explosion_Projectile_EagleBomb_100kg Eagle Airstrike

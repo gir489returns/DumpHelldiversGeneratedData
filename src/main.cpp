@@ -5,9 +5,9 @@
 #include <glaze/glaze.hpp>
 #include <cstdint>
 
-#define DAMAGE_STRUCT_SIZE 3168 / 8
-#define DAMAGE_POINTER_LOCATION 0x7FFB89F58390
-#define DAMAGE_STRING_LOCATION 0x11ED375A3B5 //DamageInfoType_None
+#define DAMAGE_STRUCT_SIZE 3240 / 8
+#define DAMAGE_POINTER_LOCATION 0x7FFB58F0FAC0
+#define DAMAGE_STRING_LOCATION 0x2436A9DABF8 //DamageInfoType_None
 
 class CDamageInstance
 {

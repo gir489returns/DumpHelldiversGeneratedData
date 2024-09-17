@@ -16,8 +16,8 @@ def load_ids(file_path):
     return ids
 
 # Load datasets from disk
-data_A = load_json('1.000.405.json')
-data_B = load_json('1.001.002.json')
+data_A = load_json('1.001.003.json')
+data_B = load_json('1.001.100.json')
 
 # Load IDs and descriptions from file
 ids_and_descriptions = load_ids('WeaponList.txt')

@@ -1,157 +1,157 @@
 // whitelisted weapons that get super damage
 #9 // Projectile_Flamethrower FLAM-40 part 1
-#12 // Projectile_Grenade_40mm_HE GL-21 part 1 projectile / mortar shell (turret)
-#21 // Projectile_Laser_Long LAS-16 Sickle
-#22 // Projectile_Plasma_Bolt SG-8P Punisher Plasma (1) / PLAS-1 Scorcher
-#23 // Projectile_Plasma_Rifle_Charge PLAS-101 Purifier Impact
-#24 // Projectile_Plasma_Bolt_Charge
-#25 // Projectile_Railgun RS-422 railgun
-#28 // Projectile_Pistol_9x20mm_fmj P-19 Redeemer
-#29 // Projectile_Pistol_9x20mm_smj MP-98 Knight
-#30 // Projectile_Pistol_9x20mm_hp P-2 Peacemaker
-#37 // Projectile_Pistol_12x25mm_fmj SMG-37 Defender
-#44 // Projectile_Pistol_12x25mm_stun SMG-72 Pummeler
-#45 // Projectile_Pistol_Magnum P-113 Verdict
-#47 // Projectile_Pistol_13x40mm_fmj P-4 Senator
-#51 // Projectile_Rifle_5p5x50mm_ap AR-23P Liberator Penetrator
-#53 // Projectile_Rifle_5p5x50mm_exp AR-23C Liberator Concussive
-#54 // Projectile_Rifle_5p5x50mm_fmj AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
-#68 // Projectile_Rifle_8x60mm_fmj MG-43 / EXO-45 Gatling / Gatling Turret / BR-14 Adjudicator / AR-L20 Jus
-#75 // Projectile_Rifle_Rico AR-61 Tenderizer
-#77 // Projectile_Rifle_9x70mm_fmj R-63 Diligence
-#78 // Projectile_Rifle_9x70mm_hv R-63CS Diligence Counter Sniper
-#84 // Projectile_Rocket_15x100mm_exp R-36 Eruptor 1
-#88 // Projectile_Rocket_15x100mm_std JAR-5 Dominator
-#93 // Projectile_Shotgun_10g_buc SG-8 Punisher / SG-22 Bushwack
-#94 // Projectile_Shotgun_Dragon_10g_flm SG-451 Cookout
-#105 // Projectile_Shotgun_10g_slug SG-8S Slugger
-#107 // Projectile_Shotgun_12g_bir SG-225SP Breaker Spray&Pray
-#108 // Projectile_Shotgun_12g_buc SG-225 Breaker
-#109 // Projectile_Shotgun_12g_bug SG-225BB Breaker BugBiter
-#110 // Projectile_Shotgun_12g_fle SG-225NS Breaker Nailspitter
-#111 // Projectile_Shotgun_12g_flm SG-225IE Breaker Incendiary
-#121 // Projectile_Arc_Thrower ARC-3 Arc Thrower
-#122 // Projectile_Arc_Thrower_Mk2
-#123 // Projectile_Arc_Shotgun ARC-12 Blitzer
-#126 // Projectile_Rifle_12p5x100mm_fmj HMG Emplacement
-#127 // Projectile_Rifle_12p5x100mm_bchp MG-206 HMG
-#128 // Projectile_Rifle_12p5x100mm_eit anti material rifle
-#130 // Projectile_Crossbow_Bolt CB-9 explosive crossbow 1
-#131 // Explosion_Crossbow_Bolt CB-9 explosive crossbow 2
-#133 // Projectile_Cannon_20mm_APHET autocannon part 1
-#134 // Projectile_Cannon_20mm_HVAPT
-#135 // Projectile_Cannon_30mm_APHE emancipator exo gun part 1
-#140 // Projectile_Grenade_40mm_HEAT GP-31 grenade pistol part 1 (part 2 = gren launcher explo)
-#141 // Projectile_Grenade_75mm_HEAT EAT-17 part 1
-#142 // Projectile_Grenade_85mm_HEAT recoil-less rifle part 1 shell
-#143 // Projectile_Grenade_85mm_HEAT_MK2
-#151 // Projectile_Missile_66mm MLS-4X Commando part 1 shell
-#152 // Projectile_Missile_66mm_MK2
-#153 // Projectile_Missile_Combat_Walker EXO-45 rocket part 1
-#154 // Projectile_Missile_Combat_Walker_MK2
-#155 // Projectile_Missile_Faf FAF-14 Spear 1 shell
-#191 // Explosion_Projectile_PlasmaBolt_Small
-#192 // Explosion_Projectile_PlasmaBolt_Medium PLAS-1 Scorcher explosion
-#193 // Explosion_Projectile_PlasmaBolt_Medium_Volatile
-#194 // Explosion_Projectile_PlasmaBolt_Large SG-8P Punisher Plasma explosion
-#195 // Explosion_Plasma_Rifle_Charge PLAS-101 Purifier Explosion
-#196 // Explosion_Plasma_Cone
-#212 // Explosion_HandGrenade_Frag_Cluster RL-77 airburst (ground???)
-#219 // Explosion_RailgunOvercharge
-#215 // Explosion_Projectile_Cannon_20mm_Flak R-36 Eruptor 3
-#226 // Explosion_Projectile_Cannon_20mm_HE autocannon part 2 explosion
-#227 // Explosion_Projectile_Cannon_20mm_APHET emancipator exo gun part 2
-#231 // Explosion_Projectile_Grenade_40mm_HE GL-21 / GP-31 grenade pistol explosion
-#235 // Explosion_Projectile_Grenade_85mm_DirectHit RL-77 airburst (rocket)
-#236 // Explosion_Projectile_Grenade_85mm_HEAT recoil-less rifle part 2 explosion
-#237 // Explosion_Projectile_Grenade_75mm_HEAT EAT-17 part 3
-#238 // Projectile_Laser_Pulse LAS-99 quasar part 1
-#239 // Explosion_Laser_Pulse LAS-99 quasar part 2
-#243 // Explosion_Projectile_Missile_66mm MLS-4X Commando part 2 explosion
-#244 // Explosion_Projectile_Missile_66mm_MK2
-#245 // Explosion_Projectile_Missile_CombatWalker EXO-45 rocket part 2
-#246 // Explosion_Projectile_Missile_CombatWalker_MK2
-#247 // Explosion_Projectile_Missile_Faf FAF-14 Spear 2 explosion
-#248 // Explosion_Projectile_Missile_Faf_MK2
-#249 // Explosion_Projectile_Missile_Stinger
-#310 // DPS_BeamSmall LAS-7 Dagger
-#311 // DPS_BeamMedium LAS-5 Scythe
-#316 // DPS_BeamLarge LAS-98
-#395 // Impact_Throwing_Knife K-2 Throwing Knife
+#14 // Projectile_Grenade_40mm_HE GL-21 part 1 projectile / mortar shell (turret)
+#23 // Projectile_Laser_Long LAS-16 Sickle
+#24 // Projectile_Plasma_Bolt SG-8P Punisher Plasma (1) / PLAS-1 Scorcher
+#25 // Projectile_Plasma_Rifle_Charge PLAS-101 Purifier Impact
+#26 // Projectile_Plasma_Bolt_Charge
+#27 // Projectile_Railgun RS-422 railgun
+#30 // Projectile_Pistol_9x20mm_fmj P-19 Redeemer
+#31 // Projectile_Pistol_9x20mm_smj MP-98 Knight
+#32 // Projectile_Pistol_9x20mm_hp P-2 Peacemaker
+#39 // Projectile_Pistol_12x25mm_fmj SMG-37 Defender
+#46 // Projectile_Pistol_12x25mm_stun SMG-72 Pummeler
+#47 // Projectile_Pistol_Magnum P-113 Verdict
+#49 // Projectile_Pistol_13x40mm_fmj P-4 Senator
+#53 // Projectile_Rifle_5p5x50mm_ap AR-23P Liberator Penetrator
+#55 // Projectile_Rifle_5p5x50mm_exp AR-23C Liberator Concussive
+#56 // Projectile_Rifle_5p5x50mm_fmj AR-23 Liberator / AR-22C Patriot / AR-48 Truth Whisperer / M-105 Stalwart / AR-61 Tenderizer / Guard Dog
+#70 // Projectile_Rifle_8x60mm_fmj MG-43 / EXO-45 Gatling / Gatling Turret / BR-14 Adjudicator / AR-L20 Jus
+#77 // Projectile_Rifle_Rico AR-61 Tenderizer
+#80 // Projectile_Rifle_9x70mm_fmj R-63 Diligence
+#81 // Projectile_Rifle_9x70mm_hv R-63CS Diligence Counter Sniper
+#87 // Projectile_Rocket_15x100mm_exp R-36 Eruptor 1
+#91 // Projectile_Rocket_15x100mm_std JAR-5 Dominator
+#96 // Projectile_Shotgun_10g_buc SG-8 Punisher / SG-22 Bushwack
+#97 // Projectile_Shotgun_Dragon_10g_flm SG-451 Cookout
+#108 // Projectile_Shotgun_10g_slug SG-8S Slugger
+#110 // Projectile_Shotgun_12g_bir SG-225SP Breaker Spray&Pray
+#111 // Projectile_Shotgun_12g_buc SG-225 Breaker
+#112 // Projectile_Shotgun_12g_bug SG-225BB Breaker BugBiter
+#113 // Projectile_Shotgun_12g_fle SG-225NS Breaker Nailspitter
+#114 // Projectile_Shotgun_12g_flm SG-225IE Breaker Incendiary
+#124 // Projectile_Arc_Thrower ARC-3 Arc Thrower
+#125 // Projectile_Arc_Thrower_Mk2
+#126 // Projectile_Arc_Shotgun ARC-12 Blitzer
+#129 // Projectile_Rifle_12p5x100mm_fmj HMG Emplacement
+#130 // Projectile_Rifle_12p5x100mm_bchp MG-206 HMG
+#131 // Projectile_Rifle_12p5x100mm_eit anti material rifle
+#133 // Projectile_Crossbow_Bolt CB-9 explosive crossbow 1
+#134 // Explosion_Crossbow_Bolt CB-9 explosive crossbow 2
+#136 // Projectile_Cannon_20mm_APHET autocannon part 1
+#137 // Projectile_Cannon_20mm_HVAPT
+#138 // Projectile_Cannon_30mm_APHE emancipator exo gun part 1
+#143 // Projectile_Grenade_40mm_HEAT GP-31 grenade pistol part 1 (part 2 = gren launcher explo)
+#144 // Projectile_Grenade_75mm_HEAT EAT-17 part 1
+#145 // Projectile_Grenade_85mm_HEAT recoil-less rifle part 1 shell
+#146 // Projectile_Grenade_85mm_HEAT_MK2
+#154 // Projectile_Missile_66mm MLS-4X Commando part 1 shell
+#155 // Projectile_Missile_66mm_MK2
+#156 // Projectile_Missile_Combat_Walker EXO-45 rocket part 1
+#157 // Projectile_Missile_Combat_Walker_MK2
+#158 // Projectile_Missile_Faf FAF-14 Spear 1 shell
+#194 // Explosion_Projectile_PlasmaBolt_Small
+#195 // Explosion_Projectile_PlasmaBolt_Medium PLAS-1 Scorcher explosion
+#196 // Explosion_Projectile_PlasmaBolt_Medium_Volatile
+#197 // Explosion_Projectile_PlasmaBolt_Large SG-8P Punisher Plasma explosion
+#198 // Explosion_Plasma_Rifle_Charge PLAS-101 Purifier Explosion
+#199 // Explosion_Plasma_Cone
+#216 // Explosion_HandGrenade_Frag_Cluster RL-77 airburst (ground???)
+#223 // Explosion_RailgunOvercharge
+#219 // Explosion_Projectile_Cannon_20mm_Flak R-36 Eruptor 3
+#230 // Explosion_Projectile_Cannon_20mm_HE autocannon part 2 explosion
+#231 // Explosion_Projectile_Cannon_20mm_APHET emancipator exo gun part 2
+#235 // Explosion_Projectile_Grenade_40mm_HE GL-21 / GP-31 grenade pistol explosion
+#239 // Explosion_Projectile_Grenade_85mm_DirectHit RL-77 airburst (rocket)
+#240 // Explosion_Projectile_Grenade_85mm_HEAT recoil-less rifle part 2 explosion
+#241 // Explosion_Projectile_Grenade_75mm_HEAT EAT-17 part 3
+#242 // Projectile_Laser_Pulse LAS-99 quasar part 1
+#243 // Explosion_Laser_Pulse LAS-99 quasar part 2
+#247 // Explosion_Projectile_Missile_66mm MLS-4X Commando part 2 explosion
+#248 // Explosion_Projectile_Missile_66mm_MK2
+#249 // Explosion_Projectile_Missile_CombatWalker EXO-45 rocket part 2
+#250 // Explosion_Projectile_Missile_CombatWalker_MK2
+#251 // Explosion_Projectile_Missile_Faf FAF-14 Spear 2 explosion
+#252 // Explosion_Projectile_Missile_Faf_MK2
+#253 // Explosion_Projectile_Missile_Stinger
+#318 // DPS_BeamSmall LAS-7 Dagger
+#319 // DPS_BeamMedium LAS-5 Scythe
+#324 // DPS_BeamLarge LAS-98
+#404 // Impact_Throwing_Knife K-2 Throwing Knife
 
 // these weapons stay default
-#117 // Projectile_Shrapnel G-6 Frag part 2
-#118 // Projectile_Shrapnel_High_Velocity Orbital airburst impact
-#119 // Projectile_StratagemLauncher
-#132 // Projectile_Tesla_Turret tesla tower
-#136 // Projectile_Cannon_40mm_APHE Autocannon Sentry impact
-#137 // Projectile_Cannon_40mm_Flak
-#138 // Projectile_Cannon_Eagle_23mm Eagle strafing run impact
-#146 // Projectile_Rocket_70mm rocket sentry turret 1
-#148 // Projectile_Bomb_100kg Eagle airstrike impact
-#158 // Projectile_Rocket_110mm Eagle 110MM rocket pods impact
-#160 // Projectile_Bomb_500kg 500KG bomb impact
-#164 // Projectile_Orbital_Cannon_110mm Orbital gas canister impact
-#165 // Projectile_Orbital_Cannon_120mm_HE Orbital 120MM HE barrage impact
-#166 // Projectile_Orbital_Cannon_380MM_HE Orbital 380MM HE barrage/precison strike/walking impact
-#167 // Projectile_Orbital_Napalm
-#168 // Explosion_Orbital_Napalm
-#169 // Projectile_Orbital_Railcannon Orbital railcannon impact
-#170 // Projectile_Orbital_Stunround
-#177 // Explosion_HandGrenade_Flash
-#178 // Explosion_Projectile_Grenade_40mm_Stun
-#179 // Explosion_Projectile_Snowball
-#205 // Explosion_Prop_Barrel
-#207 // Explosion_Building_Small
-#208 // Explosion_Building_Medium
-#209 // Explosion_Building_Large
-#210 // Explosion_Building_Huge
-#211 // Explosion_HandGrenade_Frag G-6 Frag part 1
-#213 // Explosion_HandGrenade_Incendiary G-10 Incendiary/incendiary mines (explosion)
-#214 // Explosion_HandGrenade_Thermite G-123 Thermite (explosion)
-#224 // Explosion_HandGrenade_HighExplosive G-12 High Explosive /  G-16 Impact
-#225 // Explosion_Projectile_Cannon_Eagle_23mm Eagle strafing run pods
-#228 // Explosion_Projectile_Cannon_30mm_APHE
-#229 // Explosion_Projectile_Cannon_40mm_Flak
-#230 // Explosion_Projectile_Cannon_40mm_APHE Autocannon sentry explosion
-#232 // Explosion_Projectile_Grenade_40mm_APHE
-#233 // Explosion_Projectile_Grenade_40mm_ProximityCone
-#234 // Explosion_Projectile_Grenade_Mortar_40mm_HE mortar turred explosion
-#240 // Explosion_Projectile_OrbitalShot Eagle Clusterbomb pods
-#241 // Explosion_Projectile_OrbitalShot_MK2
-#242 // Explosion_Projectile_EagleBomb_Napalm Napalm SEAF impact
-#250 // Explosion_Projectile_Rocket_70mm rocket sentry turret 2
-#251 // Explosion_Projectile_Rocket_70mm_HE
-#252 // Explosion_Projectile_Rocket_110mm Eagle 110MM rocket pods
-#254 // Explosion_ContactMine anti personnel mines
-#255 // Explosion_ContactMine_Incendiary
-#256 // Explosion_AntiTankMine anti tank mines
-#264 // Explosion_Projectile_EagleBomb_Impact Eagle Airstrike Impact
-#265 // Explosion_Projectile_EagleBomb_100kg Eagle Airstrike
-#266 // Explosion_Projectile_EagleBomb_100kg_MK3
-#267 // Explosion_Projectile_EagleMissile
-#269 // Explosion_HellpodImpact Hellpod impact damage
-#270 // Explosion_HellpodImpact_FieryDrop
-#271 // Explosion_HellpodExplosion
-#272 // Explosion_Vehicle_CyborgHugeDeath
-#274 // Explosion_Vehicle_DropshipCrash
-#279 // Explosion_Projectile_Railcannon Orbital railcannon explosion
-#280 // Explosion_Projectile_OrbitalBarrage Orbital 380MM HE barrage/walking explosion
-#281 // Explosion_Projectile_OrbitalStrike Orbital 120MM HE barrage
-#282 // Explosion_Projectile_OrbitalGas
-#283 // Explosion_Projectile_OrbitalShell
-#286 // Explosion_Projectile_EagleBomb_500kg High-yield SEAF explosion/500KG Bomb Explosion
-#297 // Explosion_EscapePodCrash
-#300 // Explosion_Hellbomb Hellbomb / SEAF Mini-Nuke
-#301 // Explosion_BugDrill
-#302 // Explosion_ICBM_explode
-#312 // DPS_BeamMediumDrone AX/LAS-5 "Guard Dog" Rover
-#319 // DPS_BeamHuge Orbital Laser
-#320 // DPS_BeamHuge_Upgrade Orbital Laser
-#323 // DPS_Fire Napalm SEAF burn
-#324 // DPS_Thermite G-123 Thermite (burn)
-#334 // DPS_Gas Orbital Gas
-#339 // Ability_Avatar_Melee Melee
-#340 // Ability_Avatar_Melee_Booster_Muscle_Enhancement Melee
-#341 // Ability_Avatar_Melee_Bayonet Melee
-#389 // Ability_SuperEarth_Soldier_Shove Melee
+#120 // Projectile_Shrapnel G-6 Frag part 2
+#121 // Projectile_Shrapnel_High_Velocity Orbital airburst impact
+#122 // Projectile_StratagemLauncher
+#135 // Projectile_Tesla_Turret tesla tower
+#139 // Projectile_Cannon_40mm_APHE Autocannon Sentry impact
+#140 // Projectile_Cannon_40mm_Flak
+#141 // Projectile_Cannon_Eagle_23mm Eagle strafing run impact
+#149 // Projectile_Rocket_70mm rocket sentry turret 1
+#151 // Projectile_Bomb_100kg Eagle airstrike impact
+#161 // Projectile_Rocket_110mm Eagle 110MM rocket pods impact
+#163 // Projectile_Bomb_500kg 500KG bomb impact
+#167 // Projectile_Orbital_Cannon_110mm Orbital gas canister impact
+#168 // Projectile_Orbital_Cannon_120mm_HE Orbital 120MM HE barrage impact
+#169 // Projectile_Orbital_Cannon_380MM_HE Orbital 380MM HE barrage/precison strike/walking impact
+#170 // Projectile_Orbital_Napalm
+#171 // Explosion_Orbital_Napalm
+#172 // Projectile_Orbital_Railcannon Orbital railcannon impact
+#173 // Projectile_Orbital_Stunround
+#180 // Explosion_HandGrenade_Flash
+#181 // Explosion_Projectile_Grenade_40mm_Stun
+#182 // Explosion_Projectile_Snowball
+#209 // Explosion_Prop_Barrel
+#211 // Explosion_Building_Small
+#212 // Explosion_Building_Medium
+#213 // Explosion_Building_Large
+#214 // Explosion_Building_Huge
+#215 // Explosion_HandGrenade_Frag G-6 Frag part 1
+#217 // Explosion_HandGrenade_Incendiary G-10 Incendiary/incendiary mines (explosion)
+#218 // Explosion_HandGrenade_Thermite G-123 Thermite (explosion)
+#228 // Explosion_HandGrenade_HighExplosive G-12 High Explosive /  G-16 Impact
+#229 // Explosion_Projectile_Cannon_Eagle_23mm Eagle strafing run pods
+#232 // Explosion_Projectile_Cannon_30mm_APHE
+#233 // Explosion_Projectile_Cannon_40mm_Flak
+#234 // Explosion_Projectile_Cannon_40mm_APHE Autocannon sentry explosion
+#236 // Explosion_Projectile_Grenade_40mm_APHE
+#237 // Explosion_Projectile_Grenade_40mm_ProximityCone
+#238 // Explosion_Projectile_Grenade_Mortar_40mm_HE mortar turred explosion
+#244 // Explosion_Projectile_OrbitalShot Eagle Clusterbomb pods
+#245 // Explosion_Projectile_OrbitalShot_MK2
+#246 // Explosion_Projectile_EagleBomb_Napalm Napalm SEAF impact
+#254 // Explosion_Projectile_Rocket_70mm rocket sentry turret 2
+#255 // Explosion_Projectile_Rocket_70mm_HE
+#256 // Explosion_Projectile_Rocket_110mm Eagle 110MM rocket pods
+#258 // Explosion_ContactMine anti personnel mines
+#259 // Explosion_ContactMine_Incendiary
+#260 // Explosion_AntiTankMine anti tank mines
+#268 // Explosion_Projectile_EagleBomb_Impact Eagle Airstrike Impact
+#269 // Explosion_Projectile_EagleBomb_100kg Eagle Airstrike
+#270 // Explosion_Projectile_EagleBomb_100kg_MK3
+#271 // Explosion_Projectile_EagleMissile
+#273 // Explosion_HellpodImpact Hellpod impact damage
+#274 // Explosion_HellpodImpact_FieryDrop
+#275 // Explosion_HellpodExplosion
+#276 // Explosion_Vehicle_CyborgHugeDeath
+#278 // Explosion_Vehicle_DropshipCrash
+#283 // Explosion_Projectile_Railcannon Orbital railcannon explosion
+#284 // Explosion_Projectile_OrbitalBarrage Orbital 380MM HE barrage/walking explosion
+#285 // Explosion_Projectile_OrbitalStrike Orbital 120MM HE barrage
+#286 // Explosion_Projectile_OrbitalGas
+#288 // Explosion_Projectile_OrbitalShell
+#291 // Explosion_Projectile_EagleBomb_500kg High-yield SEAF explosion/500KG Bomb Explosion
+#302 // Explosion_EscapePodCrash
+#305 // Explosion_Hellbomb Hellbomb / SEAF Mini-Nuke
+#306 // Explosion_BugDrill
+#307 // Explosion_ICBM_explode
+#320 // DPS_BeamMediumDrone AX/LAS-5 "Guard Dog" Rover
+#327 // DPS_BeamHuge Orbital Laser
+#328 // DPS_BeamHuge_Upgrade Orbital Laser
+#331 // DPS_Fire Napalm SEAF burn
+#332 // DPS_Thermite G-123 Thermite (burn)
+#342 // DPS_Gas Orbital Gas
+#347 // Ability_Avatar_Melee Melee
+#348 // Ability_Avatar_Melee_Booster_Muscle_Enhancement Melee
+#349 // Ability_Avatar_Melee_Bayonet Melee
+#398 // Ability_SuperEarth_Soldier_Shove Melee
